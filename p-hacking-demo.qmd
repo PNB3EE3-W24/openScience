@@ -34,7 +34,7 @@ blueStimulus <- rnorm(N, mu, sd)
 A t-test can test if there is a significant effect of colour.
 
 ```{r}
-pValues <- c(t.test(orangeStimulus, blueStimulus)$p.value)
+pValues <- c(t.test(orangeStimulus, blueStimulus, paired=TRUE)$p.value)
 pValues
 ```
 
@@ -51,7 +51,7 @@ nAdded <- N
 for (i in 1:(250-N)) {
   orangeStimulus <- append(orangeStimulus, rnorm(1, mu, sd))
   blueStimulus <- append(blueStimulus, rnorm(1, mu, sd))
-  pValues <- append(pValues, t.test(orangeStimulus, blueStimulus)$p.value)
+  pValues <- append(pValues, t.test(orangeStimulus, blueStimulus, paired=TRUE)$p.value)
   nAdded <- nAdded+1
 }
 ```
