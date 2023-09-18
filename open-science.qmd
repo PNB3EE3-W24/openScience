@@ -102,6 +102,10 @@ Probability of rejecting null hypothesis increases with the number of tests.
 -   Excluding data after seeing impact of doing do
 :::
 
+. . .
+
+[See p-hacking demo](https://pnb3ee3.github.io/openScience/p-hacking-demo.html)
+
 ------------------------------------------------------------------------
 
 ![](images/13-pvalues.png)
