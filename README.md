@@ -1,9 +1,10 @@
-# openScience
-Open Science Fundamentals
-
 ## Open Science Fundamentals
 
-[Presentation](https://pnb3ee3.github.io/openScience/open-science.html)
+Link to [presentation](https://pnb3ee3.github.io/openScience/open-science.html).
+
+This presentation is written with [Rstudio](https://posit.co/products/open-source/rstudio/) and [Quarto](https://quarto.org/docs/get-started/) (see the [markdown file](https://github.com/pnb3ee3/openScience/blob/main/open-science.qmd)).
+
+- Note, quarto will work with other IDEs (e.g., VS Code, Jupyter, etc.)
 
 ## p-hacking Demo
 

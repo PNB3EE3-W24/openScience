@@ -12,8 +12,8 @@ format:
     toc-depth: 1
     theme: [default]
 slide-number: true
-bibliography: /Users/mayaflannery/Desktop/org/biblio/references.json
-csl: /Users/mayaflannery/Desktop/org/biblio/apa.csl
+bibliography: ref/os-refs.json
+csl: ref/apa.csl
 ---
 
 # Objectives
