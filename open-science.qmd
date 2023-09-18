@@ -1,0 +1,249 @@
+---
+title: |
+  Open Science Fundamentals \
+  PNB 3EE3
+author: "Maya Flannery"
+date: "2023-09-18"
+format: 
+  revealjs:
+    embed-resources: true
+    toc: true
+    toc-title: "Outline"
+    toc-depth: 1
+    theme: [default]
+slide-number: true
+bibliography: /Users/mayaflannery/Desktop/org/biblio/references.json
+csl: /Users/mayaflannery/Desktop/org/biblio/apa.csl
+---
+
+# Objectives
+
+::: incremental
+-   What is open science?
+-   Why care about open science?
+-   How do you do open science?
+-   Connection to this [course](https://github.com/pnb3ee3)!
+:::
+
+# Background: The Replication Crisis
+
+## The Replication Crisis
+
+![Evidence for precognition---extraordinary claims! [@http://zotero.org/users/10371288/items/QIVEQVXM]](images/1-bem.png)
+
+::: notes
+[@http://zotero.org/users/10371288/items/QIVEQVXM]
+
+Some later responses:
+
+-   [@http://zotero.org/users/10371288/items/4BS48KJ5]
+-   [@http://zotero.org/users/10371288/items/C9MMMAQW]
+:::
+
+## Issue
+
+![ESP is real --- or science is broken...](images/7-believe.jpg)
+
+------------------------------------------------------------------------
+
+![Psychologists' methods become under extreme critique [@http://zotero.org/users/10371288/items/H95H5ENI]](images/8-changeStats.png)
+
+::: notes
+[@http://zotero.org/users/10371288/items/H95H5ENI]
+:::
+
+## Follow up
+
+![[@http://zotero.org/users/10371288/items/IAGU3UGZ]](images/5-manifesto.png)
+
+::: notes
+[@http://zotero.org/users/10371288/items/IAGU3UGZ]
+:::
+
+------------------------------------------------------------------------
+
+![Many studies do not replicate! [@http://zotero.org/users/10371288/items/CHLAFSLI]](images/2-replication.png)
+
+::: notes
+[@http://zotero.org/users/10371288/items/CHLAFSLI]
+:::
+
+# Problems: Questionable Practices (QRPs and QMPs)
+
+Questionable research practices [@http://zotero.org/users/10371288/items/E5Y7JSN4]
+
+Questionable measurement practices [@http://zotero.org/users/10371288/items/ZKIYJQHY]
+
+::: notes
+-   QRPS: [@http://zotero.org/users/10371288/items/E5Y7JSN4]
+-   QMPs: [@http://zotero.org/users/10371288/items/ZKIYJQHY]
+:::
+
+## Failing to report
+
+::: incremental
+-   all dependent measures
+-   all conditions
+:::
+
+. . .
+
+Probability of rejecting null hypothesis increases with the number of tests.
+
+## Selective reporting
+
+![](images/10-drawer.jpeg)
+
+## Collecting data
+
+::: incremental
+-   After seeing whether results are significant
+-   Stopping after achieving desired result
+-   Excluding data after seeing impact of doing do
+:::
+
+------------------------------------------------------------------------
+
+![](images/13-pvalues.png)
+
+## Analysis
+
+::: incremental
+-   Rounding down p-values
+-   Falsifying data
+-   Claim results are unaffected by demographics
+    -   Western Educated Industrialized Rich Democratic (WEIRD) populations
+:::
+
+## Claim to have predicted an unexpected finding
+
+HARKing [@http://zotero.org/users/10371288/items/U4589JGV]
+
+::: notes
+:::
+
+## Why do researchers do this?
+
+::: incremental
+-   Career depends on ability to "publish or perish"
+    -   It is *very* difficult to publish null results
+:::
+
+::: notes
+:::
+
+# Solution: Open Science
+
+------------------------------------------------------------------------
+
+![[FOSTER Open Science](https://www.fosteropenscience.eu)](images/9-osTaxonomy.png)
+
+## Open Access
+
+![](images/14-open-access.jpg)
+
+## Open Data
+
+::: incremental
+-   Promotes reproducibility
+-   Saves resources
+-   Must be prepared carefully
+:::
+
+. . .
+
+![](images/16-data.png)
+
+## Open Reproducible Research
+
+::: incremental
+-   Data stored, organized, formatted appropriately
+-   Code is clean, readable, well-documented
+-   Instructions for reproduction
+:::
+
+## Open Science Tools
+
+::: incremental
+-   [Git](https://github.com)
+-   [Open Science Framework](https://osf.io)
+    -   [Example](https://emusicology.org/index.php/EMR/article/view/7208)
+:::
+
+## Incentives
+
+![[@http://zotero.org/users/10371288/items/IAGU3UGZ]](images/15-incentives.png)
+
+::: notes
+:::
+
+## Resources
+
+-   [FOSTER Open Science](https://www.fosteropenscience.eu)
+
+::: notes
+:::
+
+# More Things to Think About
+
+## Metametascience
+
+![[@http://zotero.org/users/10371288/items/HNUBIKJJ]](images/3-brokenScience.png)
+
+::: notes
+[@http://zotero.org/users/10371288/items/HNUBIKJJ]
+:::
+
+## Knowledge?
+
+![[@http://zotero.org/users/10371288/items/J5LKYY99]](images/4-inst1.png)
+
+::: notes
+[@http://zotero.org/users/10371288/items/J5LKYY99]
+:::
+
+------------------------------------------------------------------------
+
+![University of Oxford](images/4-inst2.jpg)
+
+# Open Science in PNB 3EE3
+
+## Reproducible Research and Open Science Tools
+
+------------------------------------------------------------------------
+
+### Open repositories
+
+::: incremental
+-   [GitHub](https://github.com)
+:::
+
+------------------------------------------------------------------------
+
+### Open source/notebooks
+
+::: incremental
+-   [jsPsych](https://www.jspsych.org/7.3/)
+-   [R](https://www.r-project.org)
+-   [Python](https://www.python.org)
+:::
+
+------------------------------------------------------------------------
+
+### Preregistration
+
+[OSF Prereg Template](https://osf.io/preprints/metaarxiv/epgjd/)
+
+[Assignment](https://github.com/pnb3ee3/courseOutline/blob/main/Assignments/group_preRegistration.md)
+
+# Summary
+
+![[@http://zotero.org/users/10371288/items/IAGU3UGZ]](images/6-cycle-01.png)
+
+::: notes
+:::
+
+# References
+
+::: {#refs}
+:::

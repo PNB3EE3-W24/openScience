@@ -1,0 +1,98 @@
+---
+title: "p-hacking demo"
+author: "Maya Flannery"
+format: 
+  html:
+    embed-resources: true
+---
+
+```{r}
+#| output: false
+library(tidyverse)
+set.seed(999)
+```
+
+## Simulation
+
+### Part I
+
+Imagine if we ran the [demo experiment](https://www.jspsych.org/7.3/tutorials/rt-task/) 
+and found the average response time for orange and blue stimuli for 30 participants.
+
+This code simulates the data, note: **the null hypothesis is TRUE** (we can do 
+this in a simulation), $\mu = 120$ for both orange and blue stimuli.
+
+```{r}
+N <- 30
+mu <- 120
+sd <- 30
+# rnorm() produces random samples from a normal distribution
+orangeStimulus <- rnorm(N, mu, sd)
+blueStimulus <- rnorm(N, mu, sd)
+```
+
+A t-test can test if there is a significant effect of colour.
+
+```{r}
+pValues <- c(t.test(orangeStimulus, blueStimulus)$p.value)
+pValues
+```
+
+Since $p = 0.27$, we would correctly fail to reject the null hypothesis.
+
+### Part II
+
+What happens if we add participants, 1 by 1, and run a t-test.
+
+This code 'runs' 220 more participants (and records each p-value):
+
+```{r}
+nAdded <- N
+for (i in 1:(250-N)) {
+  orangeStimulus <- append(orangeStimulus, rnorm(1, mu, sd))
+  blueStimulus <- append(blueStimulus, rnorm(1, mu, sd))
+  pValues <- append(pValues, t.test(orangeStimulus, blueStimulus)$p.value)
+  nAdded <- nAdded+1
+}
+```
+
+What is the p-value with 100 participants?
+
+```{r}
+pValues[100-N]
+```
+
+$p = 0.04$, this test **incorrectly rejects** the null hypothesis!
+
+What about 125 participants?
+
+```{r}
+pValues[125-N]
+```
+
+How do you interpret this p-value?
+
+## Analysis
+
+Here are the distributions of responses for 250 participants.
+
+```{r}
+ggplot() + 
+  geom_density(aes(orangeStimulus), color = "orange") + 
+  geom_density(aes(blueStimulus), color = "blue") +
+  geom_vline(xintercept = mean(orangeStimulus), color="orange", linetype=2) +
+  geom_vline(xintercept = mean(blueStimulus), color="blue", linetype=2) +
+  ggtitle("Distribution of response times for Orange and Blue stimuli") +
+  xlab("Response time (ms)")
+```
+
+Here are all of the p-values plotted for 30--250 participants.
+
+```{r}
+ggplot() + geom_point(aes(x=N:nAdded, y=pValues)) +
+  geom_hline(yintercept=0.05, color = "red") +
+  ggtitle(paste("Simulated p-values for", nAdded-N, "two-sample t-tests (H0 is TRUE!)")) +
+  xlab("Number of participants") + scale_x_continuous(limits=c(N,nAdded)) +
+  ylab("p-value")
+```
+
