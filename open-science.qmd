@@ -3,7 +3,7 @@ title: |
   Open Science Fundamentals \
   PNB 3EE3
 author: "Maya Flannery"
-date: "2023-09-18"
+date: "2024-01-15"
 format: 
   revealjs:
     embed-resources: true
@@ -22,7 +22,7 @@ csl: ref/apa.csl
 -   What is open science?
 -   Why care about open science?
 -   How do you do open science?
--   Connection to this [course](https://github.com/pnb3ee3)!
+-   Connection to this [course](https://github.com/pnb3ee3-w24)!
 :::
 
 # Background: The Replication Crisis
@@ -104,7 +104,7 @@ Probability of rejecting null hypothesis increases with the number of tests.
 
 . . .
 
-[See p-hacking demo](https://pnb3ee3.github.io/openScience/p-hacking-demo.html)
+[See p-hacking demo](https://pnb3ee3-w24.github.io/openScience/p-hacking-demo.html)
 
 ------------------------------------------------------------------------
 
@@ -238,7 +238,7 @@ HARKing [@http://zotero.org/users/10371288/items/U4589JGV]
 
 [OSF Prereg Template](https://osf.io/preprints/metaarxiv/epgjd/)
 
-[Assignment](https://github.com/pnb3ee3/courseOutline/blob/main/Assignments/group_preRegistration.md)
+[Assignment](https://github.com/pnb3ee3-w24/courseOutline/blob/main/Assignments/group_preRegistration.md)
 
 # Summary
 

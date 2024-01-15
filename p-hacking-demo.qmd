@@ -77,22 +77,30 @@ How do you interpret this p-value?
 Here are the distributions of responses for 250 participants.
 
 ```{r}
-ggplot() + 
+fig1 <- ggplot() + 
   geom_density(aes(orangeStimulus), color = "orange") + 
   geom_density(aes(blueStimulus), color = "blue") +
   geom_vline(xintercept = mean(orangeStimulus), color="orange", linetype=2) +
   geom_vline(xintercept = mean(blueStimulus), color="blue", linetype=2) +
   ggtitle("Distribution of response times for Orange and Blue stimuli") +
   xlab("Response time (ms)")
+fig1
 ```
 
 Here are all of the p-values plotted for 30--250 participants.
 
 ```{r}
-ggplot() + geom_point(aes(x=N:nAdded, y=pValues)) +
+fig2 <- ggplot() + geom_line(aes(x=N:nAdded, y=pValues)) +
   geom_hline(yintercept=0.05, color = "red") +
   ggtitle(paste("Simulated p-values for", nAdded-N, "two-sample t-tests (H0 is TRUE!)")) +
-  xlab("Number of participants") + scale_x_continuous(limits=c(N,nAdded)) +
+  xlab("Number of participants (N)") + 
+  scale_x_continuous(limits=c(N, nAdded)) +
   ylab("p-value")
+fig2
+```
+
+
+```{r}
+ggsave("images/13-pvalues.png", fig2, width = 8, height = 5)
 ```
 
