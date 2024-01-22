@@ -1,0 +1,46 @@
+/*-- https://quarto.org/docs/presentations/revealjs/themes.html#sass-variables --*/
+
+/*-- scss:defaults --*/
+
+// fonts
+//$font-family-sans-serif: "Palatino Linotype", "Book Antiqua", Palatino,
+//  FreeSerif, serif !default;
+$presentation-font-size-root: 30px;
+
+// colors
+$body-bg: #ffffff !default;
+$body-color: #000 !default;
+$link-color: #51483d !default;
+$selection-bg: #26351c !default;
+
+$selection-color: #000 !default;
+$light-bg-text-color: #000 !default;
+$dark-bg-text-color: #ffffff !default;
+
+// headings
+//$presentation-heading-font: "Palatino Linotype", "Book Antiqua", Palatino,
+//  FreeSerif, serif !default;
+$presentation-heading-color: #383d3d !default;
+
+/*-- scss:rules --*/
+
+.reveal a {
+  line-height: 1.3em;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+figure>figcaption {
+  text-align: center;
+  //font-size: 10px;
+}
+
+.slide {
+  text-align: center;
+}
+
+.img {
+  height: 400px;
+}

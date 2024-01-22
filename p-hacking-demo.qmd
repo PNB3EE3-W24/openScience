@@ -9,7 +9,7 @@ format:
 ```{r}
 #| output: false
 library(tidyverse)
-set.seed(999)
+set.seed(126)
 ```
 
 ## Simulation
@@ -35,10 +35,20 @@ A t-test can test if there is a significant effect of colour.
 
 ```{r}
 pValues <- c(t.test(orangeStimulus, blueStimulus, paired=TRUE)$p.value)
-pValues
 ```
 
-Since $p = 0.27$, we would correctly fail to reject the null hypothesis.
+Since $p =$ `r round(pValues, 3)`, we would correctly fail to reject the null hypothesis.
+
+```{r}
+fig1 <- ggplot() + 
+  geom_density(aes(orangeStimulus), color = "orange") + 
+  geom_density(aes(blueStimulus), color = "blue") +
+  geom_vline(xintercept = mean(orangeStimulus), color="orange", linetype=2) +
+  geom_vline(xintercept = mean(blueStimulus), color="blue", linetype=2) +
+  ggtitle("Distribution of response times for Orange and Blue stimuli") +
+  xlab("Response time (ms)")
+fig1
+```
 
 ### Part II
 
@@ -62,7 +72,7 @@ What is the p-value with 100 participants?
 pValues[100-N]
 ```
 
-$p = 0.04$, this test **incorrectly rejects** the null hypothesis!
+$p = 0.022$, this test **incorrectly rejects** the null hypothesis!
 
 What about 125 participants?
 
@@ -75,17 +85,6 @@ How do you interpret this p-value?
 ## Analysis
 
 Here are the distributions of responses for 250 participants.
-
-```{r}
-fig1 <- ggplot() + 
-  geom_density(aes(orangeStimulus), color = "orange") + 
-  geom_density(aes(blueStimulus), color = "blue") +
-  geom_vline(xintercept = mean(orangeStimulus), color="orange", linetype=2) +
-  geom_vline(xintercept = mean(blueStimulus), color="blue", linetype=2) +
-  ggtitle("Distribution of response times for Orange and Blue stimuli") +
-  xlab("Response time (ms)")
-fig1
-```
 
 Here are all of the p-values plotted for 30--250 participants.
 

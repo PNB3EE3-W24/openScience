@@ -1,2033 +1,2092 @@
 [
-	{
-		"id": "http://zotero.org/users/10371288/items/ZGA3CKT5",
-		"type": "article",
-		"abstract": "In this tutorial, we describe a workflow to ensure long-term reproducibility of R-based data analyses. The workflow leverages established tools and practices from software engineering. It combines the benefits of various open-source software tools including R Markdown, Git, Make, and Docker, whose interplay ensures seamless integration of version management, dynamic report generation conforming to various journal styles, and full cross-platform and long-term computational reproducibility. The workflow ensures meeting the primary goals that 1) the reporting of statistical results is consistent with the actual statistical results (dynamic report generation), 2) the analysis exactly reproduces at a later point in time even if the computing platform or software is changed (computational reproducibility), and 3) changes at any time (during development and post-publication) are tracked, tagged, and documented while earlier versions of both data and code remain accessible. While the research community increasingly recognizes dynamic document generation and version management as tools to ensure reproducibility, we demonstrate with practical examples that these alone are not sufficient to ensure long-term computational reproducibility. Combining containerization, dependence management, version management, and dynamic document generation, the proposed workflow increases scientific productivity by facilitating later reproducibility and reuse of code and data.",
-		"DOI": "10.31234/osf.io/8xzqy",
-		"language": "en-us",
-		"publisher": "PsyArXiv",
-		"source": "OSF Preprints",
-		"title": "A Reproducible Data Analysis Workflow with R Markdown, Git, Make, and Docker",
-		"URL": "https://psyarxiv.com/8xzqy/",
-		"author": [
-			{
-				"family": "Peikert",
-				"given": "Aaron"
-			},
-			{
-				"family": "Brandmaier",
-				"given": "Andreas Markus"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					4,
-					18
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					11,
-					11
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/D9QSLXCF",
-		"type": "article-journal",
-		"abstract": "This essay traces the history of refereeing at specialist scientiﬁc journals and at funding bodies and shows that it was only in the late twentieth century that peer review came to be seen as a process central to scientiﬁc practice. Throughout the nineteenth century and into much of the twentieth, external referee reports were considered an optional part of journal editing or grant making. The idea that refereeing is a requirement for scientiﬁc legitimacy seems to have arisen ﬁrst in the Cold War United States. In the 1970s, in the wake of a series of attacks on scientiﬁc funding, American scientists faced a dilemma: there was increasing pressure for science to be accountable to those who funded it, but scientists wanted to ensure their continuing inﬂuence over funding decisions. Scientists and their supporters cast expert refereeing—or “peer review,” as it was increasingly called—as the crucial process that ensured the credibility of science as a whole. Taking funding decisions out of expert hands, they argued, would be a corruption of science itself. This public elevation of peer review both reinforced and spread the belief that only peer-reviewed science was scientiﬁcally legitimate.",
-		"container-title": "Isis",
-		"DOI": "10.1086/700070",
-		"ISSN": "0021-1753, 1545-6994",
-		"issue": "3",
-		"journalAbbreviation": "Isis",
-		"language": "en",
-		"page": "538-558",
-		"source": "DOI.org (Crossref)",
-		"title": "Scientific Autonomy, Public Accountability, and the Rise of “Peer Review” in the Cold War United States",
-		"URL": "https://www.journals.uchicago.edu/doi/10.1086/700070",
-		"volume": "109",
-		"author": [
-			{
-				"family": "Baldwin",
-				"given": "Melinda"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					4,
-					24
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2018",
-					9
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/NXTEBIYL",
-		"type": "article-journal",
-		"DOI": "10.1073/pnas.2203150119",
-		"issue": "44",
-		"language": "en",
-		"source": "Zotero",
-		"title": "Observing many researchers using the same data and hypothesis reveals a hidden universe of uncertainty",
-		"volume": "119",
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/RUDRWYSG",
-		"type": "article-journal",
-		"abstract": "Scientists, being human, make mistakes. We transcribe things incorrectly, we make errors in our code, and we intend to do things and then forget. The consequences of errors in research may be as minor as wasted time and annoyance, but may be as severe as losing months of work or having to retract a paper. The purpose of this tutorial is to help lab groups identify places in their research workflow where errors may occur and identify ways to avoid them. To do this, the paper applies concepts from human factors research on how to create lab cultures and workflows that are intended to minimize errors. The paper does not provide a one-size-fits-all set of guidelines for specific practices to use (e.g., one platform on which to back up data); instead, it gives examples of ways that mistakes can occur in research along with recommendations for systems that avoid and detect them. This tutorial is intended to be used as a discussion prompt prior to a lab meeting to help researchers reflect on their own processes and implement safeguards to avoid future errors.",
-		"container-title": "Psychological Methods",
-		"DOI": "10.1037/met0000547",
-		"ISSN": "1939-1463, 1082-989X",
-		"journalAbbreviation": "Psychological Methods",
-		"language": "en",
-		"source": "DOI.org (Crossref)",
-		"title": "Error tight: Exercises for lab groups to prevent research mistakes.",
-		"title-short": "Error tight",
-		"URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/met0000547",
-		"author": [
-			{
-				"family": "Strand",
-				"given": "Julia F."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					4,
-					24
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					1,
-					2
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/2T2NX6J9",
-		"type": "report",
-		"abstract": "I present an ontology of criteria for evaluating theory to answer the titular question from the perspective of a scientist practitioner. Set inside a formal account of our adjudication over theories, a metatheoretical calculus, this ontology comprises: a) Metaphysical commitment, the need to highlight what parts of theory are not under investigation, but are assumed, asserted, or essential. b) Discursive survival, the ability to be understood by interested non-bad actors, to withstand scrutiny within the intended (sub)field(s), and to negotiate the dialectical landscape thereof. c) Empirical interface, the potential to explicate the relationship between theory and observation, i.e., how observations relate to, and affect, theory and vice versa. d) Minimizing harm, the reckoning with how theory is forged in a fire of historical, if not ongoing, abuses — from past crimes against humanity, to current exploitation, turbocharged or hyped by machine learning, to historical and present internal academic marginalization. This work hopes to serve as a possible beginning for scientists who want to examine the properties and characteristics of theories, to propose additional virtues and vices, and to engage in further dialogue. Finally, I appeal to practitioners to iterate frequently over such criteria, by building and sharing the metatheoretical calculi used to adjudicate over theories.",
-		"genre": "preprint",
-		"language": "en",
-		"note": "DOI: 10.31234/osf.io/8fxds",
-		"publisher": "PsyArXiv",
-		"source": "DOI.org (Crossref)",
-		"title": "What makes a good theory, and how do we make a theory good?",
-		"URL": "https://osf.io/8fxds",
-		"author": [
-			{
-				"family": "Guest",
-				"given": "Olivia"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					4,
-					25
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					3,
-					29
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/XY87T9I2",
-		"type": "article-journal",
-		"abstract": "A crisis of confidence in research findings in consumer psychology and other academic disciplines has led to various proposals to abandon, replace, strengthen, or supplement the null hypothesis significance testing paradigm. The proliferation of such proposals, and their oftenconflicting recommendations, can increase confusion among researchers. We aim to bring some clarity by proposing five simple principles for the new era of data analysis and reporting of research in consumer psychology. We avoid adding to researchers’ confusion and proposing more onerous or rigid standards. Our goal is to offer straightforward practical principles that are easy for researchers to keep in mind while analyzing their data and reporting their findings. These principles involve 1) interpreting p-values as continuous measures of the strength of evidence, 2) being aware of assumptions that determine whether one can rely on p-values, 3) using theory to establish the applicability of findings to new settings, 4) employing multiple measures of evidence and various processes to obtain them, but assigning special privilege to none, 5) reporting procedures and findings transparently and completely. We hope that these principles provide researchers with some guidance and help to strengthen the reliability of the conclusions derived from their data, analyses, and findings.",
-		"language": "en",
-		"source": "Zotero",
-		"title": "Beyond Statistical Significance: Five Principles for the New Era of Data Analysis and Reporting",
-		"author": [
-			{
-				"family": "Wedel",
-				"given": "Michel"
-			}
-		]
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/DTQF8JWC",
-		"type": "article-journal",
-		"abstract": "Researchers commonly make dichotomous claims based on continuous test statistics. Many have branded the practice as a misuse of statistics and criticize scientists for the widespread application of hypothesis tests to tentatively reject a hypothesis (or not) depending on whether a p-value is below or above an alpha level. Although dichotomous claims are rarely explicitly defended, we argue they play an important epistemological and pragmatic role in science. The epistemological function of dichotomous claims consists in transforming data into quasibasic statements, which are tentatively accepted singular facts that can corroborate or falsify theoretical claims. This transformation requires a prespecified methodological decision procedure such as NeymanPearson hypothesis tests. From the perspective of methodological falsificationism these decision procedures are necessary, as probabilistic statements (e.g., continuous test statistics) cannot function as falsifiers of substantive hypotheses. The pragmatic function of dichotomous claims is to facilitate scrutiny and criticism among peers by generating contestable claims, a process referred to by Popper as “conjectures and refutations.” We speculate about how the surprisingly widespread use of a 5% alpha level might have facilitated this pragmatic function. Abandoning dichotomous claims, for example because researchers commonly misuse p-values, would sacrifice their crucial epistemic and pragmatic functions.",
-		"DOI": "10.1177/09593543231160112",
-		"issue": "3",
-		"language": "en",
-		"page": "403-423",
-		"source": "Zotero",
-		"title": "The epistemic and pragmatic function of dichotomous claims based on statistical hypothesis tests",
-		"volume": "33",
-		"author": [
-			{
-				"family": "Tunç",
-				"given": "Duygu Uygun"
-			},
-			{
-				"family": "Tunç",
-				"given": "Mehmet Necip"
-			},
-			{
-				"family": "Lakens",
-				"given": "Daniël"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/6GHALAAQ",
-		"type": "article-journal",
-		"abstract": "We make only one point in this article. Every quantitative study must be able to answer the question: what is your estimand? The estimand is the target quantity—the purpose of the statistical analysis. Much attention is already placed on how to do estimation; a similar degree of care should be given to defining the thing we are estimating. We advocate that authors state the central quantity of each analysis—the theoretical estimand—in precise terms that exist outside of any statistical model. In our framework, researchers do three things: (1) set a theoretical estimand, clearly connecting this quantity to theory; (2) link to an empirical estimand, which is informative about the theoretical estimand under some identification assumptions; and (3) learn from data. Adding precise estimands to research practice expands the space of theoretical questions, clarifies how evidence can speak to those questions, and unlocks new tools for estimation. By grounding all three steps in a precise statement of the target quantity, our framework connects statistical evidence to theory.",
-		"container-title": "American Sociological Review",
-		"DOI": "10.1177/00031224211004187",
-		"issue": "3",
-		"language": "en",
-		"page": "532-565",
-		"source": "Zotero",
-		"title": "What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory",
-		"volume": "86",
-		"author": [
-			{
-				"family": "Lundberg",
-				"given": "Ian"
-			},
-			{
-				"family": "Johnson",
-				"given": "Rebecca"
-			},
-			{
-				"family": "Stewart",
-				"given": "Brandon M"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/RAKK9Z82",
-		"type": "article-journal",
-		"abstract": "Conducting research with human subjects can be difficult because of limited sample sizes and small empirical effects. We demonstrate that this problem can yield patterns of results that are practically indistinguishable from flipping a coin to determine the direction of treatment effects. We use this idea of random conclusions to establish a baseline for interpreting effect-size estimates, in turn producing more stringent thresholds for hypothesis testing and for statisticalpower calculations. An examination of recent meta-analyses in psychology, neuroscience, and medicine confirms that, even if all considered effects are real, results involving small effects are indeed indistinguishable from random conclusions.",
-		"DOI": "10.1177/17456916231182097",
-		"language": "en",
-		"page": "1-21",
-		"source": "Zotero",
-		"title": "Better Accuracy for Better Science . . . Through Random Conclusions",
-		"author": [
-			{
-				"family": "Davis-Stober",
-				"given": "Clintin P"
-			},
-			{
-				"family": "Dana",
-				"given": "Jason"
-			},
-			{
-				"family": "Kellen",
-				"given": "David"
-			},
-			{
-				"family": "McMullin",
-				"given": "Sara D"
-			},
-			{
-				"family": "Bonifay",
-				"given": "Wes"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/DFTB7TR5",
-		"type": "article-journal",
-		"abstract": "I am profoundly grateful to Tom Bouchard for helping me learn to think scientiﬁcally. Scientiﬁc thinking, which is characterized by a set of safeguards against conﬁrmation bias, does not come naturally to the human species, as the relatively recent appearance of science in history attests. Even today, scientiﬁc thinking is in woefully short supply in many domains of psychology, including clinical psychology and cognate disciplines. I survey ﬁve key threats to scientiﬁc psychology – (a) political correctness, (b) radical environmentalism, (c) the resurrection of ‘‘common sense” and intuition as arbiters of scientiﬁc truth, (d) postmodernism, and (e) pseudoscience – and conclude that these threats must be confronted directly by psychological science. I propose a set of educational and institutional reforms that should place psychology on ﬁrmer scientiﬁc footing.",
-		"container-title": "Personality and Individual Differences",
-		"DOI": "10.1016/j.paid.2010.01.024",
-		"ISSN": "01918869",
-		"issue": "4",
-		"journalAbbreviation": "Personality and Individual Differences",
-		"language": "en",
-		"page": "281-288",
-		"source": "DOI.org (Crossref)",
-		"title": "Can psychology become a science?",
-		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0191886910000425",
-		"volume": "49",
-		"author": [
-			{
-				"family": "Lilienfeld",
-				"given": "Scott O."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					8,
-					19
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2010",
-					9
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/ZIW2REI4",
-		"type": "article-journal",
-		"abstract": "Authors from richer, English-speaking countries gain unconscious boost when identified to referees, study finds.",
-		"container-title": "Nature",
-		"DOI": "10.1038/d41586-023-01772-w",
-		"language": "en",
-		"license": "2023 Springer Nature Limited",
-		"note": "Bandiera_abtest: a\nCg_type: Career News\npublisher: Nature Publishing Group\nSubject_term: Careers, Authorship, Peer review, Developing world",
-		"source": "www-nature-com.libaccess.lib.mcmaster.ca",
-		"title": "Anonymizing peer review makes the process more just",
-		"URL": "https://www.nature.com/articles/d41586-023-01772-w",
-		"author": [
-			{
-				"family": "Gilbert",
-				"given": "Natasha"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					8,
-					19
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					5,
-					26
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/ZSZJQRFM",
-		"type": "article-journal",
-		"abstract": "Adaptive behavior in the environment requires a high level of cognitive control to bias limited processing resources to behaviorally signiﬁcant stimuli. Such control has been associated with a set of brain regions located in the fronto-parietal cortex (multiple demand network), whose activity was found to increase as the control demand for a task increases. In contrast, another set of regions, default mode network regions, were found to be deactivated during top-down processing of task stimuli. Despite this dissociation in their activation amplitudes, it is possible that activation patterns of these regions commonly encode speciﬁc task features. In two independent neuroimaging datasets, involving a total of 40 human samples, we found that the performance of an attentional task evoked positive activity of the MDN and deactivation of the DMN. Consistent with previous studies, task features could be decoded from the fronto-parietal cognitive regions. Importantly, the regions of the DMN also encoded task features when the task set had to be rapidly reconﬁgured in a transient, trial-by-trial manner, along with the MDN regions. These results suggest that the two separate brain networks ultimately co-ordinate for the effective establishment of top-down cognitive control.",
-		"container-title": "Brain Sciences",
-		"DOI": "10.3390/brainsci13091247",
-		"ISSN": "2076-3425",
-		"issue": "9",
-		"journalAbbreviation": "Brain Sciences",
-		"language": "en",
-		"page": "1247",
-		"source": "DOI.org (Crossref)",
-		"title": "The Involvement of the Multiple Demand and Default Mode Networks in a Trial-by-Trial Cognitive Control",
-		"URL": "https://www.mdpi.com/2076-3425/13/9/1247",
-		"volume": "13",
-		"author": [
-			{
-				"family": "Jung",
-				"given": "Shinyoung"
-			},
-			{
-				"family": "Kim",
-				"given": "Joo Yeon"
-			},
-			{
-				"family": "Jo",
-				"given": "Suhyeon"
-			},
-			{
-				"family": "Han",
-				"given": "Suk Won"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					2
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					8,
-					26
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/U834TQX2",
-		"type": "article",
-		"abstract": "Whether current or near-term AI systems could be conscious is a topic of scientific interest and increasing public concern. This report argues for, and exemplifies, a rigorous and empirically grounded approach to AI consciousness: assessing existing AI systems in detail, in light of our best-supported neuroscientific theories of consciousness. We survey several prominent scientific theories of consciousness, including recurrent processing theory, global workspace theory, higher-order theories, predictive processing, and attention schema theory. From these theories we derive \"indicator properties\" of consciousness, elucidated in computational terms that allow us to assess AI systems for these properties. We use these indicator properties to assess several recent AI systems, and we discuss how future systems might implement them. Our analysis suggests that no current AI systems are conscious, but also suggests that there are no obvious technical barriers to building AI systems which satisfy these indicators.",
-		"language": "en",
-		"note": "arXiv:2308.08708 [cs, q-bio]",
-		"number": "arXiv:2308.08708",
-		"publisher": "arXiv",
-		"source": "arXiv.org",
-		"title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
-		"title-short": "Consciousness in Artificial Intelligence",
-		"URL": "http://arxiv.org/abs/2308.08708",
-		"author": [
-			{
-				"family": "Butlin",
-				"given": "Patrick"
-			},
-			{
-				"family": "Long",
-				"given": "Robert"
-			},
-			{
-				"family": "Elmoznino",
-				"given": "Eric"
-			},
-			{
-				"family": "Bengio",
-				"given": "Yoshua"
-			},
-			{
-				"family": "Birch",
-				"given": "Jonathan"
-			},
-			{
-				"family": "Constant",
-				"given": "Axel"
-			},
-			{
-				"family": "Deane",
-				"given": "George"
-			},
-			{
-				"family": "Fleming",
-				"given": "Stephen M."
-			},
-			{
-				"family": "Frith",
-				"given": "Chris"
-			},
-			{
-				"family": "Ji",
-				"given": "Xu"
-			},
-			{
-				"family": "Kanai",
-				"given": "Ryota"
-			},
-			{
-				"family": "Klein",
-				"given": "Colin"
-			},
-			{
-				"family": "Lindsay",
-				"given": "Grace"
-			},
-			{
-				"family": "Michel",
-				"given": "Matthias"
-			},
-			{
-				"family": "Mudrik",
-				"given": "Liad"
-			},
-			{
-				"family": "Peters",
-				"given": "Megan A. K."
-			},
-			{
-				"family": "Schwitzgebel",
-				"given": "Eric"
-			},
-			{
-				"family": "Simon",
-				"given": "Jonathan"
-			},
-			{
-				"family": "VanRullen",
-				"given": "Rufin"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					3
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					8,
-					22
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/S4IE885R",
-		"type": "article-journal",
-		"container-title": "European Journal of Epidemiology",
-		"DOI": "10.1007/s10654-016-0149-3",
-		"ISSN": "0393-2990, 1573-7284",
-		"issue": "4",
-		"journalAbbreviation": "Eur J Epidemiol",
-		"language": "en",
-		"page": "337-350",
-		"source": "DOI.org (Crossref)",
-		"title": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations",
-		"title-short": "Statistical tests, P values, confidence intervals, and power",
-		"URL": "http://link.springer.com/10.1007/s10654-016-0149-3",
-		"volume": "31",
-		"author": [
-			{
-				"family": "Greenland",
-				"given": "Sander"
-			},
-			{
-				"family": "Senn",
-				"given": "Stephen J."
-			},
-			{
-				"family": "Rothman",
-				"given": "Kenneth J."
-			},
-			{
-				"family": "Carlin",
-				"given": "John B."
-			},
-			{
-				"family": "Poole",
-				"given": "Charles"
-			},
-			{
-				"family": "Goodman",
-				"given": "Steven N."
-			},
-			{
-				"family": "Altman",
-				"given": "Douglas G."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					3
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2016",
-					4
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/S46743XW",
-		"type": "article-journal",
-		"abstract": "Political scientists often theorize that an explanatory variable should have “no effect” and support this claim by demonstrating that its coefficient's estimate is not statistically significant. This empirical argument is quite weak, but I introduce applied researchers to simple, powerful tools that can strengthen their arguments for this hypothesis. With several supporting examples, I illustrate that researchers can use 90% confidence intervals to argue against meaningful effects and provide persuasive evidence for their hypothesis.",
-		"container-title": "American Journal of Political Science",
-		"DOI": "10.1111/ajps.12102",
-		"ISSN": "0092-5853, 1540-5907",
-		"issue": "4",
-		"journalAbbreviation": "American J Political Sci",
-		"language": "en",
-		"page": "1083-1091",
-		"source": "DOI.org (Crossref)",
-		"title": "Arguing for a Negligible Effect",
-		"URL": "https://onlinelibrary.wiley.com/doi/10.1111/ajps.12102",
-		"volume": "58",
-		"author": [
-			{
-				"family": "Rainey",
-				"given": "Carlisle"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					3
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2014",
-					10
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/2MY73HRV",
-		"type": "article",
-		"abstract": "The equitable distribution of academic data is crucial for ensuring equal research opportunities, and ultimately further progress. Yet, due to the complexity of using the API for audio data that corresponds to the Million Song Dataset along with its misreporting (before 2016) and the discontinuation of this API (after 2016), access to this data has become restricted to those within certain affiliations that are connected peer-to-peer. In this paper, we delve into this issue, drawing insights from the experiences of 22 individuals who either attempted to access the data or played a role in its creation. With this, we hope to initiate more critical dialogue and more thoughtful consideration with regard to access privilege in the MIR community.",
-		"language": "en",
-		"note": "arXiv:2308.16389 [cs, eess]",
-		"number": "arXiv:2308.16389",
-		"publisher": "arXiv",
-		"source": "arXiv.org",
-		"title": "The Biased Journey of MSD_AUDIO.ZIP",
-		"URL": "http://arxiv.org/abs/2308.16389",
-		"author": [
-			{
-				"family": "Kim",
-				"given": "Haven"
-			},
-			{
-				"family": "Choi",
-				"given": "Keunwoo"
-			},
-			{
-				"family": "Modrzejewski",
-				"given": "Mateusz"
-			},
-			{
-				"family": "Liem",
-				"given": "Cynthia C. S."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					3
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					8,
-					30
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/IDLE8RKM",
-		"type": "article-journal",
-		"container-title": "Landscape Ecology",
-		"DOI": "10.1007/s10980-011-9674-3",
-		"ISSN": "0921-2973, 1572-9761",
-		"issue": "10",
-		"journalAbbreviation": "Landscape Ecol",
-		"language": "en",
-		"page": "1345-1349",
-		"source": "DOI.org (Crossref)",
-		"title": "Improving the writing of research papers: IMRAD and beyond",
-		"title-short": "Improving the writing of research papers",
-		"URL": "http://link.springer.com/10.1007/s10980-011-9674-3",
-		"volume": "26",
-		"author": [
-			{
-				"family": "Wu",
-				"given": "Jianguo"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					4
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2011",
-					12
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/KWW9RDQA",
-		"type": "article-journal",
-		"abstract": "The open science movement is rapidly changing the scientific landscape. Because exact definitions are often lacking and reforms are constantly evolving, accessible guides to open science are needed. This paper provides an introduction to open science and related reforms in the form of an annotated reading list of seven peer-reviewed articles, following the format of Etz, Gronau, Dablander, Edelsbrunner, and Baribault (2018). Written for researchers and students – particularly in psychological science – it highlights and introduces seven topics: understanding open science; open access; open data, materials, and code; reproducible analyses; preregistration and registered reports; replication research; and teaching open science. For each topic, we provide a detailed summary of one particularly informative and actionable article and suggest several further resources. Supporting a broader understanding of open science issues, this overview should enable researchers to engage with, improve, and implement current open, transparent, reproducible, replicable, and cumulative scientific practices.",
-		"container-title": "Zeitschrift für Psychologie",
-		"DOI": "10.1027/2151-2604/a000387",
-		"ISSN": "2190-8370, 2151-2604",
-		"issue": "4",
-		"journalAbbreviation": "Zeitschrift für Psychologie",
-		"language": "en",
-		"page": "237-248",
-		"source": "DOI.org (Crossref)",
-		"title": "Seven Easy Steps to Open Science: An Annotated Reading List",
-		"title-short": "Seven Easy Steps to Open Science",
-		"URL": "https://econtent.hogrefe.com/doi/10.1027/2151-2604/a000387",
-		"volume": "227",
-		"author": [
-			{
-				"family": "Crüwell",
-				"given": "Sophia"
-			},
-			{
-				"family": "Van Doorn",
-				"given": "Johnny"
-			},
-			{
-				"family": "Etz",
-				"given": "Alexander"
-			},
-			{
-				"family": "Makel",
-				"given": "Matthew C."
-			},
-			{
-				"family": "Moshontz",
-				"given": "Hannah"
-			},
-			{
-				"family": "Niebaum",
-				"given": "Jesse C."
-			},
-			{
-				"family": "Orben",
-				"given": "Amy"
-			},
-			{
-				"family": "Parsons",
-				"given": "Sam"
-			},
-			{
-				"family": "Schulte-Mecklenbeck",
-				"given": "Michael"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					11
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					10
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/IAGU3UGZ",
-		"type": "article-journal",
-		"abstract": "Abstract\n            Improving the reliability and efficiency of scientific research will increase the credibility of the published scientific literature and accelerate discovery. Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives. There is some evidence from both simulations and empirical studies supporting the likely effectiveness of these measures, but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement. We discuss the goals of these measures, and how they can be implemented, in the hope that this will facilitate action toward improving the transparency, reproducibility and efficiency of scientific research.",
-		"container-title": "Nature Human Behaviour",
-		"DOI": "10.1038/s41562-016-0021",
-		"ISSN": "2397-3374",
-		"issue": "1",
-		"journalAbbreviation": "Nat Hum Behav",
-		"language": "en",
-		"page": "0021",
-		"source": "DOI.org (Crossref)",
-		"title": "A manifesto for reproducible science",
-		"URL": "https://www.nature.com/articles/s41562-016-0021",
-		"volume": "1",
-		"author": [
-			{
-				"family": "Munafò",
-				"given": "Marcus R."
-			},
-			{
-				"family": "Nosek",
-				"given": "Brian A."
-			},
-			{
-				"family": "Bishop",
-				"given": "Dorothy V. M."
-			},
-			{
-				"family": "Button",
-				"given": "Katherine S."
-			},
-			{
-				"family": "Chambers",
-				"given": "Christopher D."
-			},
-			{
-				"family": "Percie Du Sert",
-				"given": "Nathalie"
-			},
-			{
-				"family": "Simonsohn",
-				"given": "Uri"
-			},
-			{
-				"family": "Wagenmakers",
-				"given": "Eric-Jan"
-			},
-			{
-				"family": "Ware",
-				"given": "Jennifer J."
-			},
-			{
-				"family": "Ioannidis",
-				"given": "John P. A."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2017",
-					1,
-					10
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/QIVEQVXM",
-		"type": "article-journal",
-		"abstract": "The term psi denotes anomalous processes of information or energy transfer that are currently unexplained in terms of known physical or biological mechanisms. Two variants of psi are precognition (conscious cognitive awareness) and premonition (affective apprehension) of a future event that could not otherwise be anticipated through any known inferential process. Precognition and premonition are themselves special cases of a more general phenomenon: the anomalous retroactive influence of some future event on an individual’s current responses, whether those responses are conscious or nonconscious, cognitive or affective. This article reports 9 experiments, involving more than 1,000 participants, that test for retroactive influence by “time-reversing” well-established psychological effects so that the individual’s responses are obtained before the putatively causal stimulus events occur. Data are presented for 4 time-reversed effects: precognitive approach to erotic stimuli and precognitive avoidance of negative stimuli; retroactive priming; retroactive habituation; and retroactive facilitation of recall. The mean effect size (d) in psi performance across all 9 experiments was 0.22, and all but one of the experiments yielded statistically significant results. The individual-difference variable of stimulus seeking, a component of extraversion, was significantly correlated with psi performance in 5 of the experiments, with participants who scored above the midpoint on a scale of stimulus seeking achieving a mean effect size of 0.43. Skepticism about psi, issues of replication, and theories of psi are also discussed.",
-		"container-title": "Journal of Personality and Social Psychology",
-		"DOI": "10.1037/a0021524",
-		"ISSN": "1939-1315, 0022-3514",
-		"issue": "3",
-		"journalAbbreviation": "Journal of Personality and Social Psychology",
-		"language": "en",
-		"page": "407-425",
-		"source": "DOI.org (Crossref)",
-		"title": "Feeling the future: Experimental evidence for anomalous retroactive influences on cognition and affect.",
-		"title-short": "Feeling the future",
-		"URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/a0021524",
-		"volume": "100",
-		"author": [
-			{
-				"family": "Bem",
-				"given": "Daryl J."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2011"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/H95H5ENI",
-		"type": "article-journal",
-		"abstract": "Does psi exist? D. J. Bem (2011) conducted 9 studies with over 1,000 participants in an attempt to demonstrate that future events retroactively affect people’s responses. Here we discuss several limitations of Bem’s experiments on psi; in particular, we show that the data analysis was partly exploratory and that one-sided p values may overstate the statistical evidence against the null hypothesis. We reanalyze Bem’s data with a default Bayesian t test and show that the evidence for psi is weak to nonexistent. We argue that in order to convince a skeptical audience of a controversial claim, one needs to conduct strictly confirmatory studies and analyze the results with statistical tests that are conservative rather than liberal. We conclude that Bem’s p values do not indicate evidence in favor of precognition; instead, they indicate that experimental psychologists need to change the way they conduct their experiments and analyze their data.",
-		"container-title": "Journal of Personality and Social Psychology",
-		"DOI": "10.1037/a0022790",
-		"ISSN": "1939-1315, 0022-3514",
-		"issue": "3",
-		"journalAbbreviation": "Journal of Personality and Social Psychology",
-		"language": "en",
-		"page": "426-432",
-		"source": "DOI.org (Crossref)",
-		"title": "Why psychologists must change the way they analyze their data: The case of psi: Comment on Bem (2011).",
-		"title-short": "Why psychologists must change the way they analyze their data",
-		"URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/a0022790",
-		"volume": "100",
-		"author": [
-			{
-				"family": "Wagenmakers",
-				"given": "Eric-Jan"
-			},
-			{
-				"family": "Wetzels",
-				"given": "Ruud"
-			},
-			{
-				"family": "Borsboom",
-				"given": "Denny"
-			},
-			{
-				"family": "Van Der Maas",
-				"given": "Han L. J."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2011",
-					3
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/CHLAFSLI",
-		"type": "article-journal",
-		"abstract": "We conducted preregistered replications of 28 classic and contemporary published findings, with protocols that were peer reviewed in advance, to examine variation in effect magnitudes across samples and settings. Each protocol was administered to approximately half of 125 samples that comprised 15,305 participants from 36 countries and territories. Using the conventional criterion of statistical significance (p < .05), we found that 15 (54%) of the replications provided evidence of a statistically significant effect in the same direction as the original finding. With a strict significance criterion (p < .0001), 14 (50%) of the replications still provided such evidence, a reflection of the extremely highpowered design. Seven (25%) of the replications yielded effect sizes larger than the original ones, and 21 (75%) yielded effect sizes smaller than the original ones. The median comparable Cohen’s ds were 0.60 for the original findings and 0.15 for the replications. The effect sizes were small (< 0.20) in 16 of the replications (57%), and 9 effects (32%) were in the direction opposite the direction of the original effect. Across settings, the Q statistic indicated significant heterogeneity in 11 (39%) of the replication effects, and most of those were among the findings with the largest overall effect sizes; only 1 effect that was near zero in the aggregate showed significant heterogeneity according to this measure. Only 1 effect had a tau value greater than .20, an indication of moderate heterogeneity. Eight others had tau values near or slightly above .10, an indication of slight heterogeneity. Moderation tests indicated that very little heterogeneity was attributable to the order in which the tasks were performed or whether the tasks were administered in lab versus online. Exploratory comparisons revealed little heterogeneity between Western, educated, industrialized, rich, and democratic (WEIRD) cultures and less WEIRD cultures (i.e., cultures with relatively high and low WEIRDness scores, respectively). Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied.",
-		"container-title": "Advances in Methods and Practices in Psychological Science",
-		"DOI": "10.1177/2515245918810225",
-		"ISSN": "2515-2459, 2515-2467",
-		"issue": "4",
-		"journalAbbreviation": "Advances in Methods and Practices in Psychological Science",
-		"language": "en",
-		"page": "443-490",
-		"source": "DOI.org (Crossref)",
-		"title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
-		"title-short": "Many Labs 2",
-		"URL": "http://journals.sagepub.com/doi/10.1177/2515245918810225",
-		"volume": "1",
-		"author": [
-			{
-				"family": "Klein",
-				"given": "Richard A."
-			},
-			{
-				"family": "Vianello",
-				"given": "Michelangelo"
-			},
-			{
-				"family": "Hasselman",
-				"given": "Fred"
-			},
-			{
-				"family": "Adams",
-				"given": "Byron G."
-			},
-			{
-				"family": "Adams",
-				"given": "Reginald B."
-			},
-			{
-				"family": "Alper",
-				"given": "Sinan"
-			},
-			{
-				"family": "Aveyard",
-				"given": "Mark"
-			},
-			{
-				"family": "Axt",
-				"given": "Jordan R."
-			},
-			{
-				"family": "Babalola",
-				"given": "Mayowa T."
-			},
-			{
-				"family": "Bahník",
-				"given": "Štěpán"
-			},
-			{
-				"family": "Batra",
-				"given": "Rishtee"
-			},
-			{
-				"family": "Berkics",
-				"given": "Mihály"
-			},
-			{
-				"family": "Bernstein",
-				"given": "Michael J."
-			},
-			{
-				"family": "Berry",
-				"given": "Daniel R."
-			},
-			{
-				"family": "Bialobrzeska",
-				"given": "Olga"
-			},
-			{
-				"family": "Binan",
-				"given": "Evans Dami"
-			},
-			{
-				"family": "Bocian",
-				"given": "Konrad"
-			},
-			{
-				"family": "Brandt",
-				"given": "Mark J."
-			},
-			{
-				"family": "Busching",
-				"given": "Robert"
-			},
-			{
-				"family": "Rédei",
-				"given": "Anna Cabak"
-			},
-			{
-				"family": "Cai",
-				"given": "Huajian"
-			},
-			{
-				"family": "Cambier",
-				"given": "Fanny"
-			},
-			{
-				"family": "Cantarero",
-				"given": "Katarzyna"
-			},
-			{
-				"family": "Carmichael",
-				"given": "Cheryl L."
-			},
-			{
-				"family": "Ceric",
-				"given": "Francisco"
-			},
-			{
-				"family": "Chandler",
-				"given": "Jesse"
-			},
-			{
-				"family": "Chang",
-				"given": "Jen-Ho"
-			},
-			{
-				"family": "Chatard",
-				"given": "Armand"
-			},
-			{
-				"family": "Chen",
-				"given": "Eva E."
-			},
-			{
-				"family": "Cheong",
-				"given": "Winnee"
-			},
-			{
-				"family": "Cicero",
-				"given": "David C."
-			},
-			{
-				"family": "Coen",
-				"given": "Sharon"
-			},
-			{
-				"family": "Coleman",
-				"given": "Jennifer A."
-			},
-			{
-				"family": "Collisson",
-				"given": "Brian"
-			},
-			{
-				"family": "Conway",
-				"given": "Morgan A."
-			},
-			{
-				"family": "Corker",
-				"given": "Katherine S."
-			},
-			{
-				"family": "Curran",
-				"given": "Paul G."
-			},
-			{
-				"family": "Cushman",
-				"given": "Fiery"
-			},
-			{
-				"family": "Dagona",
-				"given": "Zubairu K."
-			},
-			{
-				"family": "Dalgar",
-				"given": "Ilker"
-			},
-			{
-				"family": "Dalla Rosa",
-				"given": "Anna"
-			},
-			{
-				"family": "Davis",
-				"given": "William E."
-			},
-			{
-				"family": "De Bruijn",
-				"given": "Maaike"
-			},
-			{
-				"family": "De Schutter",
-				"given": "Leander"
-			},
-			{
-				"family": "Devos",
-				"given": "Thierry"
-			},
-			{
-				"family": "De Vries",
-				"given": "Marieke"
-			},
-			{
-				"family": "Doğulu",
-				"given": "Canay"
-			},
-			{
-				"family": "Dozo",
-				"given": "Nerisa"
-			},
-			{
-				"family": "Dukes",
-				"given": "Kristin Nicole"
-			},
-			{
-				"family": "Dunham",
-				"given": "Yarrow"
-			},
-			{
-				"family": "Durrheim",
-				"given": "Kevin"
-			},
-			{
-				"family": "Ebersole",
-				"given": "Charles R."
-			},
-			{
-				"family": "Edlund",
-				"given": "John E."
-			},
-			{
-				"family": "Eller",
-				"given": "Anja"
-			},
-			{
-				"family": "English",
-				"given": "Alexander Scott"
-			},
-			{
-				"family": "Finck",
-				"given": "Carolyn"
-			},
-			{
-				"family": "Frankowska",
-				"given": "Natalia"
-			},
-			{
-				"family": "Freyre",
-				"given": "Miguel-Ángel"
-			},
-			{
-				"family": "Friedman",
-				"given": "Mike"
-			},
-			{
-				"family": "Galliani",
-				"given": "Elisa Maria"
-			},
-			{
-				"family": "Gandi",
-				"given": "Joshua C."
-			},
-			{
-				"family": "Ghoshal",
-				"given": "Tanuka"
-			},
-			{
-				"family": "Giessner",
-				"given": "Steffen R."
-			},
-			{
-				"family": "Gill",
-				"given": "Tripat"
-			},
-			{
-				"family": "Gnambs",
-				"given": "Timo"
-			},
-			{
-				"family": "Gómez",
-				"given": "Ángel"
-			},
-			{
-				"family": "González",
-				"given": "Roberto"
-			},
-			{
-				"family": "Graham",
-				"given": "Jesse"
-			},
-			{
-				"family": "Grahe",
-				"given": "Jon E."
-			},
-			{
-				"family": "Grahek",
-				"given": "Ivan"
-			},
-			{
-				"family": "Green",
-				"given": "Eva G. T."
-			},
-			{
-				"family": "Hai",
-				"given": "Kakul"
-			},
-			{
-				"family": "Haigh",
-				"given": "Matthew"
-			},
-			{
-				"family": "Haines",
-				"given": "Elizabeth L."
-			},
-			{
-				"family": "Hall",
-				"given": "Michael P."
-			},
-			{
-				"family": "Heffernan",
-				"given": "Marie E."
-			},
-			{
-				"family": "Hicks",
-				"given": "Joshua A."
-			},
-			{
-				"family": "Houdek",
-				"given": "Petr"
-			},
-			{
-				"family": "Huntsinger",
-				"given": "Jeffrey R."
-			},
-			{
-				"family": "Huynh",
-				"given": "Ho Phi"
-			},
-			{
-				"family": "IJzerman",
-				"given": "Hans"
-			},
-			{
-				"family": "Inbar",
-				"given": "Yoel"
-			},
-			{
-				"family": "Innes-Ker",
-				"given": "Åse H."
-			},
-			{
-				"family": "Jiménez-Leal",
-				"given": "William"
-			},
-			{
-				"family": "John",
-				"given": "Melissa-Sue"
-			},
-			{
-				"family": "Joy-Gaba",
-				"given": "Jennifer A."
-			},
-			{
-				"family": "Kamiloğlu",
-				"given": "Roza G."
-			},
-			{
-				"family": "Kappes",
-				"given": "Heather Barry"
-			},
-			{
-				"family": "Karabati",
-				"given": "Serdar"
-			},
-			{
-				"family": "Karick",
-				"given": "Haruna"
-			},
-			{
-				"family": "Keller",
-				"given": "Victor N."
-			},
-			{
-				"family": "Kende",
-				"given": "Anna"
-			},
-			{
-				"family": "Kervyn",
-				"given": "Nicolas"
-			},
-			{
-				"family": "Knežević",
-				"given": "Goran"
-			},
-			{
-				"family": "Kovacs",
-				"given": "Carrie"
-			},
-			{
-				"family": "Krueger",
-				"given": "Lacy E."
-			},
-			{
-				"family": "Kurapov",
-				"given": "German"
-			},
-			{
-				"family": "Kurtz",
-				"given": "Jamie"
-			},
-			{
-				"family": "Lakens",
-				"given": "Daniël"
-			},
-			{
-				"family": "Lazarević",
-				"given": "Ljiljana B."
-			},
-			{
-				"family": "Levitan",
-				"given": "Carmel A."
-			},
-			{
-				"family": "Lewis",
-				"given": "Neil A."
-			},
-			{
-				"family": "Lins",
-				"given": "Samuel"
-			},
-			{
-				"family": "Lipsey",
-				"given": "Nikolette P."
-			},
-			{
-				"family": "Losee",
-				"given": "Joy E."
-			},
-			{
-				"family": "Maassen",
-				"given": "Esther"
-			},
-			{
-				"family": "Maitner",
-				"given": "Angela T."
-			},
-			{
-				"family": "Malingumu",
-				"given": "Winfrida"
-			},
-			{
-				"family": "Mallett",
-				"given": "Robyn K."
-			},
-			{
-				"family": "Marotta",
-				"given": "Satia A."
-			},
-			{
-				"family": "Međedović",
-				"given": "Janko"
-			},
-			{
-				"family": "Mena-Pacheco",
-				"given": "Fernando"
-			},
-			{
-				"family": "Milfont",
-				"given": "Taciano L."
-			},
-			{
-				"family": "Morris",
-				"given": "Wendy L."
-			},
-			{
-				"family": "Murphy",
-				"given": "Sean C."
-			},
-			{
-				"family": "Myachykov",
-				"given": "Andriy"
-			},
-			{
-				"family": "Neave",
-				"given": "Nick"
-			},
-			{
-				"family": "Neijenhuijs",
-				"given": "Koen"
-			},
-			{
-				"family": "Nelson",
-				"given": "Anthony J."
-			},
-			{
-				"family": "Neto",
-				"given": "Félix"
-			},
-			{
-				"family": "Lee Nichols",
-				"given": "Austin"
-			},
-			{
-				"family": "Ocampo",
-				"given": "Aaron"
-			},
-			{
-				"family": "O’Donnell",
-				"given": "Susan L."
-			},
-			{
-				"family": "Oikawa",
-				"given": "Haruka"
-			},
-			{
-				"family": "Oikawa",
-				"given": "Masanori"
-			},
-			{
-				"family": "Ong",
-				"given": "Elsie"
-			},
-			{
-				"family": "Orosz",
-				"given": "Gábor"
-			},
-			{
-				"family": "Osowiecka",
-				"given": "Malgorzata"
-			},
-			{
-				"family": "Packard",
-				"given": "Grant"
-			},
-			{
-				"family": "Pérez-Sánchez",
-				"given": "Rolando"
-			},
-			{
-				"family": "Petrović",
-				"given": "Boban"
-			},
-			{
-				"family": "Pilati",
-				"given": "Ronaldo"
-			},
-			{
-				"family": "Pinter",
-				"given": "Brad"
-			},
-			{
-				"family": "Podesta",
-				"given": "Lysandra"
-			},
-			{
-				"family": "Pogge",
-				"given": "Gabrielle"
-			},
-			{
-				"family": "Pollmann",
-				"given": "Monique M. H."
-			},
-			{
-				"family": "Rutchick",
-				"given": "Abraham M."
-			},
-			{
-				"family": "Saavedra",
-				"given": "Patricio"
-			},
-			{
-				"family": "Saeri",
-				"given": "Alexander K."
-			},
-			{
-				"family": "Salomon",
-				"given": "Erika"
-			},
-			{
-				"family": "Schmidt",
-				"given": "Kathleen"
-			},
-			{
-				"family": "Schönbrodt",
-				"given": "Felix D."
-			},
-			{
-				"family": "Sekerdej",
-				"given": "Maciej B."
-			},
-			{
-				"family": "Sirlopú",
-				"given": "David"
-			},
-			{
-				"family": "Skorinko",
-				"given": "Jeanine L. M."
-			},
-			{
-				"family": "Smith",
-				"given": "Michael A."
-			},
-			{
-				"family": "Smith-Castro",
-				"given": "Vanessa"
-			},
-			{
-				"family": "Smolders",
-				"given": "Karin C. H. J."
-			},
-			{
-				"family": "Sobkow",
-				"given": "Agata"
-			},
-			{
-				"family": "Sowden",
-				"given": "Walter"
-			},
-			{
-				"family": "Spachtholz",
-				"given": "Philipp"
-			},
-			{
-				"family": "Srivastava",
-				"given": "Manini"
-			},
-			{
-				"family": "Steiner",
-				"given": "Troy G."
-			},
-			{
-				"family": "Stouten",
-				"given": "Jeroen"
-			},
-			{
-				"family": "Street",
-				"given": "Chris N. H."
-			},
-			{
-				"family": "Sundfelt",
-				"given": "Oskar K."
-			},
-			{
-				"family": "Szeto",
-				"given": "Stephanie"
-			},
-			{
-				"family": "Szumowska",
-				"given": "Ewa"
-			},
-			{
-				"family": "Tang",
-				"given": "Andrew C. W."
-			},
-			{
-				"family": "Tanzer",
-				"given": "Norbert"
-			},
-			{
-				"family": "Tear",
-				"given": "Morgan J."
-			},
-			{
-				"family": "Theriault",
-				"given": "Jordan"
-			},
-			{
-				"family": "Thomae",
-				"given": "Manuela"
-			},
-			{
-				"family": "Torres",
-				"given": "David"
-			},
-			{
-				"family": "Traczyk",
-				"given": "Jakub"
-			},
-			{
-				"family": "Tybur",
-				"given": "Joshua M."
-			},
-			{
-				"family": "Ujhelyi",
-				"given": "Adrienn"
-			},
-			{
-				"family": "Van Aert",
-				"given": "Robbie C. M."
-			},
-			{
-				"family": "Van Assen",
-				"given": "Marcel A. L. M."
-			},
-			{
-				"family": "Van Der Hulst",
-				"given": "Marije"
-			},
-			{
-				"family": "Van Lange",
-				"given": "Paul A. M."
-			},
-			{
-				"family": "Van ’T Veer",
-				"given": "Anna Elisabeth"
-			},
-			{
-				"family": "Vásquez- Echeverría",
-				"given": "Alejandro"
-			},
-			{
-				"family": "Ann Vaughn",
-				"given": "Leigh"
-			},
-			{
-				"family": "Vázquez",
-				"given": "Alexandra"
-			},
-			{
-				"family": "Vega",
-				"given": "Luis Diego"
-			},
-			{
-				"family": "Verniers",
-				"given": "Catherine"
-			},
-			{
-				"family": "Verschoor",
-				"given": "Mark"
-			},
-			{
-				"family": "Voermans",
-				"given": "Ingrid P. J."
-			},
-			{
-				"family": "Vranka",
-				"given": "Marek A."
-			},
-			{
-				"family": "Welch",
-				"given": "Cheryl"
-			},
-			{
-				"family": "Wichman",
-				"given": "Aaron L."
-			},
-			{
-				"family": "Williams",
-				"given": "Lisa A."
-			},
-			{
-				"family": "Wood",
-				"given": "Michael"
-			},
-			{
-				"family": "Woodzicka",
-				"given": "Julie A."
-			},
-			{
-				"family": "Wronska",
-				"given": "Marta K."
-			},
-			{
-				"family": "Young",
-				"given": "Liane"
-			},
-			{
-				"family": "Zelenski",
-				"given": "John M."
-			},
-			{
-				"family": "Zhijia",
-				"given": "Zeng"
-			},
-			{
-				"family": "Nosek",
-				"given": "Brian A."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2018",
-					12
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/E5Y7JSN4",
-		"type": "article-journal",
-		"abstract": "Cases of clear scientific misconduct have received significant media attention recently, but less flagrantly questionable research practices may be more prevalent and, ultimately, more damaging to the academic enterprise. Using an anonymous elicitation format supplemented by incentives for honest reporting, we surveyed over 2,000 psychologists about their involvement in questionable research practices. The impact of truth-telling incentives on self-admissions of questionable research practices was positive, and this impact was greater for practices that respondents judged to be less defensible. Combining three different estimation methods, we found that the percentage of respondents who have engaged in questionable practices was surprisingly high. This finding suggests that some questionable practices may constitute the prevailing research norm.",
-		"container-title": "Psychological Science",
-		"DOI": "10.1177/0956797611430953",
-		"ISSN": "0956-7976, 1467-9280",
-		"issue": "5",
-		"journalAbbreviation": "Psychol Sci",
-		"language": "en",
-		"page": "524-532",
-		"source": "DOI.org (Crossref)",
-		"title": "Measuring the Prevalence of Questionable Research Practices With Incentives for Truth Telling",
-		"URL": "http://journals.sagepub.com/doi/10.1177/0956797611430953",
-		"volume": "23",
-		"author": [
-			{
-				"family": "John",
-				"given": "Leslie K."
-			},
-			{
-				"family": "Loewenstein",
-				"given": "George"
-			},
-			{
-				"family": "Prelec",
-				"given": "Drazen"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2012",
-					5
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/ZKIYJQHY",
-		"type": "article-journal",
-		"abstract": "In this article, we define questionable measurement practices (QMPs) as decisions researchers make that raise doubts about the validity of the measures, and ultimately the validity of study conclusions. Doubts arise for a host of reasons, including a lack of transparency, ignorance, negligence, or misrepresentation of the evidence. We describe the scope of the problem and focus on how transparency is a part of the solution. A lack of measurement transparency makes it impossible to evaluate potential threats to internal, external, statistical-conclusion, and construct validity. We demonstrate that psychology is plagued by a measurement schmeasurement attitude: QMPs are common, hide a stunning source of researcher degrees of freedom, and pose a serious threat to cumulative psychological science, but are largely ignored. We address these challenges by providing a set of questions that researchers and consumers of scientific research can consider to identify and avoid QMPs. Transparent answers to these measurement questions promote rigorous research, allow for thorough evaluations of a study’s inferences, and are necessary for meaningful replication studies.",
-		"container-title": "Advances in Methods and Practices in Psychological Science",
-		"DOI": "10.1177/2515245920952393",
-		"issue": "4",
-		"language": "en",
-		"page": "456-465",
-		"source": "Zotero",
-		"title": "Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them",
-		"volume": "3",
-		"author": [
-			{
-				"family": "Flake",
-				"given": "Jessica Kay"
-			},
-			{
-				"family": "Fried",
-				"given": "Eiko I"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2020"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/J5LKYY99",
-		"type": "article-journal",
-		"abstract": "This article raises questions about what the word ‘knowledge’ refers to. Drawn from some 40 years of collaborative work on knowledge democracy, the authors suggest that higher education institutions today are working with a very small part of the extensive and diverse knowledge systems in the world. Following from de Sousa Santos, they illustrate how Western knowledge has been engaged in epistemicide, or the killing of other knowledge systems. Community-based participatory research is about knowledge as an action strategy for change and about the rendering visible of the excluded knowledges of our remarkable planet. Knowledge stories, theoretical dimensions of knowledge democracy and the evolution of community-based participatory research partnerships are highlighted.",
-		"container-title": "Research for All",
-		"DOI": "10.18546/RFA.01.1.02",
-		"ISSN": "2399-8121, 2399-8121",
-		"issue": "1",
-		"language": "en",
-		"source": "DOI.org (Crossref)",
-		"title": "Decolonization of knowledge, epistemicide, participatory research and higher education",
-		"URL": "https://scienceopen.com/hosted-document?doi=10.18546/RFA.01.1.02",
-		"volume": "1",
-		"author": [
-			{
-				"family": "Hall",
-				"given": "Budd L."
-			},
-			{
-				"family": "Tandon",
-				"given": "Rajesh"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2017"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/HNUBIKJJ",
-		"type": "webpage",
-		"container-title": "The British Psychological Society",
-		"language": "en",
-		"title": "#bropenscience is broken science",
-		"title-short": "#bropenscience is broken science",
-		"URL": "https://www.bps.org.uk/psychologist/bropenscience-broken-science",
-		"author": [
-			{
-				"family": "Whitaker",
-				"given": "Kirstie"
-			},
-			{
-				"family": "Guest",
-				"given": "Olivia"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2020",
-					9
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/C9MMMAQW",
-		"type": "webpage",
-		"container-title": "Open Science Collaboration",
-		"title": "Open Science Collaboration Blog · Bem is Back: A Skeptic's Review of a Meta-Analysis on Psi",
-		"URL": "http://osc.centerforopenscience.org/2014/06/25/a-skeptics-review/",
-		"author": [
-			{
-				"family": "Wagenmakers",
-				"given": "Eric-Jan"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2014",
-					6,
-					25
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/4BS48KJ5",
-		"type": "post-weblog",
-		"container-title": "The 20% Statistician",
-		"title": "The 20% Statistician: A pre-publication peer-review of the 'Feeling The Future' meta-analysis",
-		"title-short": "The 20% Statistician",
-		"URL": "http://daniellakens.blogspot.com/2014/05/a-pre-publication-peer-review-of-meta.html",
-		"author": [
-			{
-				"family": "Lakens",
-				"given": "Daniel"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2014",
-					5,
-					23
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/U4589JGV",
-		"type": "article-journal",
-		"abstract": "My purpose here is not to propose a definition for HARKing that can be unambiguously applied in any particular instance. Nor do I suggest (or believe) that the various forms HARKing might take are equivalent (e.g., in terms of their costs). My immediate purpose is to define conceptually and illustrate a (fuzzy) set of approaches to advancing hypotheses in research reports that share a common feature-namely, knowledge of the results of the study alters the set of hypotheses advanced in the report's introduction.",
-		"container-title": "Personality and Social Psychology Review",
-		"DOI": "10.1207/s15327957pspr0203_4",
-		"ISSN": "1088-8683, 1532-7957",
-		"issue": "3",
-		"journalAbbreviation": "Pers Soc Psychol Rev",
-		"language": "en",
-		"page": "196-217",
-		"source": "DOI.org (Crossref)",
-		"title": "HARKing: Hypothesizing After the Results are Known",
-		"title-short": "HARKing",
-		"URL": "http://journals.sagepub.com/doi/10.1207/s15327957pspr0203_4",
-		"volume": "2",
-		"author": [
-			{
-				"family": "Kerr",
-				"given": "Norbert L."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					17
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"1998",
-					8
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/10371288/items/7DPI2Z8Q",
-		"type": "article-journal",
-		"abstract": "Humans are remarkably good at self-deception. But growing concern about reproducibility is driving many researchers to seek ways to fight their own worst instincts.",
-		"container-title": "Nature",
-		"DOI": "10.1038/526182a",
-		"language": "en",
-		"page": "182-185",
-		"source": "Zotero",
-		"title": "Fooling Ourselves",
-		"volume": "526",
-		"author": [
-			{
-				"family": "Nuzzo",
-				"given": "Regina"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2015"
-				]
-			]
-		}
-	}
+    {
+        "id": "http://zotero.org/users/10371288/items/ZGA3CKT5",
+        "type": "article",
+        "abstract": "In this tutorial, we describe a workflow to ensure long-term reproducibility of R-based data analyses. The workflow leverages established tools and practices from software engineering. It combines the benefits of various open-source software tools including R Markdown, Git, Make, and Docker, whose interplay ensures seamless integration of version management, dynamic report generation conforming to various journal styles, and full cross-platform and long-term computational reproducibility. The workflow ensures meeting the primary goals that 1) the reporting of statistical results is consistent with the actual statistical results (dynamic report generation), 2) the analysis exactly reproduces at a later point in time even if the computing platform or software is changed (computational reproducibility), and 3) changes at any time (during development and post-publication) are tracked, tagged, and documented while earlier versions of both data and code remain accessible. While the research community increasingly recognizes dynamic document generation and version management as tools to ensure reproducibility, we demonstrate with practical examples that these alone are not sufficient to ensure long-term computational reproducibility. Combining containerization, dependence management, version management, and dynamic document generation, the proposed workflow increases scientific productivity by facilitating later reproducibility and reuse of code and data.",
+        "DOI": "10.31234/osf.io/8xzqy",
+        "language": "en-us",
+        "publisher": "PsyArXiv",
+        "source": "OSF Preprints",
+        "title": "A Reproducible Data Analysis Workflow with R Markdown, Git, Make, and Docker",
+        "URL": "https://psyarxiv.com/8xzqy/",
+        "author": [
+            {
+                "family": "Peikert",
+                "given": "Aaron"
+            },
+            {
+                "family": "Brandmaier",
+                "given": "Andreas Markus"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    4,
+                    18
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2019",
+                    11,
+                    11
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/D9QSLXCF",
+        "type": "article-journal",
+        "abstract": "This essay traces the history of refereeing at specialist scientiﬁc journals and at funding bodies and shows that it was only in the late twentieth century that peer review came to be seen as a process central to scientiﬁc practice. Throughout the nineteenth century and into much of the twentieth, external referee reports were considered an optional part of journal editing or grant making. The idea that refereeing is a requirement for scientiﬁc legitimacy seems to have arisen ﬁrst in the Cold War United States. In the 1970s, in the wake of a series of attacks on scientiﬁc funding, American scientists faced a dilemma: there was increasing pressure for science to be accountable to those who funded it, but scientists wanted to ensure their continuing inﬂuence over funding decisions. Scientists and their supporters cast expert refereeing—or “peer review,” as it was increasingly called—as the crucial process that ensured the credibility of science as a whole. Taking funding decisions out of expert hands, they argued, would be a corruption of science itself. This public elevation of peer review both reinforced and spread the belief that only peer-reviewed science was scientiﬁcally legitimate.",
+        "container-title": "Isis",
+        "DOI": "10.1086/700070",
+        "ISSN": "0021-1753, 1545-6994",
+        "issue": "3",
+        "journalAbbreviation": "Isis",
+        "language": "en",
+        "page": "538-558",
+        "source": "DOI.org (Crossref)",
+        "title": "Scientific Autonomy, Public Accountability, and the Rise of “Peer Review” in the Cold War United States",
+        "URL": "https://www.journals.uchicago.edu/doi/10.1086/700070",
+        "volume": "109",
+        "author": [
+            {
+                "family": "Baldwin",
+                "given": "Melinda"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    4,
+                    24
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2018",
+                    9
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/NXTEBIYL",
+        "type": "article-journal",
+        "DOI": "10.1073/pnas.2203150119",
+        "issue": "44",
+        "language": "en",
+        "source": "Zotero",
+        "title": "Observing many researchers using the same data and hypothesis reveals a hidden universe of uncertainty",
+        "volume": "119",
+        "issued": {
+            "date-parts": [
+                [
+                    "2022"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/RUDRWYSG",
+        "type": "article-journal",
+        "abstract": "Scientists, being human, make mistakes. We transcribe things incorrectly, we make errors in our code, and we intend to do things and then forget. The consequences of errors in research may be as minor as wasted time and annoyance, but may be as severe as losing months of work or having to retract a paper. The purpose of this tutorial is to help lab groups identify places in their research workflow where errors may occur and identify ways to avoid them. To do this, the paper applies concepts from human factors research on how to create lab cultures and workflows that are intended to minimize errors. The paper does not provide a one-size-fits-all set of guidelines for specific practices to use (e.g., one platform on which to back up data); instead, it gives examples of ways that mistakes can occur in research along with recommendations for systems that avoid and detect them. This tutorial is intended to be used as a discussion prompt prior to a lab meeting to help researchers reflect on their own processes and implement safeguards to avoid future errors.",
+        "container-title": "Psychological Methods",
+        "DOI": "10.1037/met0000547",
+        "ISSN": "1939-1463, 1082-989X",
+        "journalAbbreviation": "Psychological Methods",
+        "language": "en",
+        "source": "DOI.org (Crossref)",
+        "title": "Error tight: Exercises for lab groups to prevent research mistakes.",
+        "title-short": "Error tight",
+        "URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/met0000547",
+        "author": [
+            {
+                "family": "Strand",
+                "given": "Julia F."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    4,
+                    24
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    1,
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/2T2NX6J9",
+        "type": "report",
+        "abstract": "I present an ontology of criteria for evaluating theory to answer the titular question from the perspective of a scientist practitioner. Set inside a formal account of our adjudication over theories, a metatheoretical calculus, this ontology comprises: a) Metaphysical commitment, the need to highlight what parts of theory are not under investigation, but are assumed, asserted, or essential. b) Discursive survival, the ability to be understood by interested non-bad actors, to withstand scrutiny within the intended (sub)field(s), and to negotiate the dialectical landscape thereof. c) Empirical interface, the potential to explicate the relationship between theory and observation, i.e., how observations relate to, and affect, theory and vice versa. d) Minimizing harm, the reckoning with how theory is forged in a fire of historical, if not ongoing, abuses — from past crimes against humanity, to current exploitation, turbocharged or hyped by machine learning, to historical and present internal academic marginalization. This work hopes to serve as a possible beginning for scientists who want to examine the properties and characteristics of theories, to propose additional virtues and vices, and to engage in further dialogue. Finally, I appeal to practitioners to iterate frequently over such criteria, by building and sharing the metatheoretical calculi used to adjudicate over theories.",
+        "genre": "preprint",
+        "language": "en",
+        "note": "DOI: 10.31234/osf.io/8fxds",
+        "publisher": "PsyArXiv",
+        "source": "DOI.org (Crossref)",
+        "title": "What makes a good theory, and how do we make a theory good?",
+        "URL": "https://osf.io/8fxds",
+        "author": [
+            {
+                "family": "Guest",
+                "given": "Olivia"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    4,
+                    25
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    3,
+                    29
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/XY87T9I2",
+        "type": "article-journal",
+        "abstract": "A crisis of confidence in research findings in consumer psychology and other academic disciplines has led to various proposals to abandon, replace, strengthen, or supplement the null hypothesis significance testing paradigm. The proliferation of such proposals, and their oftenconflicting recommendations, can increase confusion among researchers. We aim to bring some clarity by proposing five simple principles for the new era of data analysis and reporting of research in consumer psychology. We avoid adding to researchers’ confusion and proposing more onerous or rigid standards. Our goal is to offer straightforward practical principles that are easy for researchers to keep in mind while analyzing their data and reporting their findings. These principles involve 1) interpreting p-values as continuous measures of the strength of evidence, 2) being aware of assumptions that determine whether one can rely on p-values, 3) using theory to establish the applicability of findings to new settings, 4) employing multiple measures of evidence and various processes to obtain them, but assigning special privilege to none, 5) reporting procedures and findings transparently and completely. We hope that these principles provide researchers with some guidance and help to strengthen the reliability of the conclusions derived from their data, analyses, and findings.",
+        "language": "en",
+        "source": "Zotero",
+        "title": "Beyond Statistical Significance: Five Principles for the New Era of Data Analysis and Reporting",
+        "author": [
+            {
+                "family": "Wedel",
+                "given": "Michel"
+            }
+        ]
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/DTQF8JWC",
+        "type": "article-journal",
+        "abstract": "Researchers commonly make dichotomous claims based on continuous test statistics. Many have branded the practice as a misuse of statistics and criticize scientists for the widespread application of hypothesis tests to tentatively reject a hypothesis (or not) depending on whether a p-value is below or above an alpha level. Although dichotomous claims are rarely explicitly defended, we argue they play an important epistemological and pragmatic role in science. The epistemological function of dichotomous claims consists in transforming data into quasibasic statements, which are tentatively accepted singular facts that can corroborate or falsify theoretical claims. This transformation requires a prespecified methodological decision procedure such as NeymanPearson hypothesis tests. From the perspective of methodological falsificationism these decision procedures are necessary, as probabilistic statements (e.g., continuous test statistics) cannot function as falsifiers of substantive hypotheses. The pragmatic function of dichotomous claims is to facilitate scrutiny and criticism among peers by generating contestable claims, a process referred to by Popper as “conjectures and refutations.” We speculate about how the surprisingly widespread use of a 5% alpha level might have facilitated this pragmatic function. Abandoning dichotomous claims, for example because researchers commonly misuse p-values, would sacrifice their crucial epistemic and pragmatic functions.",
+        "DOI": "10.1177/09593543231160112",
+        "issue": "3",
+        "language": "en",
+        "page": "403-423",
+        "source": "Zotero",
+        "title": "The epistemic and pragmatic function of dichotomous claims based on statistical hypothesis tests",
+        "volume": "33",
+        "author": [
+            {
+                "family": "Tunç",
+                "given": "Duygu Uygun"
+            },
+            {
+                "family": "Tunç",
+                "given": "Mehmet Necip"
+            },
+            {
+                "family": "Lakens",
+                "given": "Daniël"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2023"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/6GHALAAQ",
+        "type": "article-journal",
+        "abstract": "We make only one point in this article. Every quantitative study must be able to answer the question: what is your estimand? The estimand is the target quantity—the purpose of the statistical analysis. Much attention is already placed on how to do estimation; a similar degree of care should be given to defining the thing we are estimating. We advocate that authors state the central quantity of each analysis—the theoretical estimand—in precise terms that exist outside of any statistical model. In our framework, researchers do three things: (1) set a theoretical estimand, clearly connecting this quantity to theory; (2) link to an empirical estimand, which is informative about the theoretical estimand under some identification assumptions; and (3) learn from data. Adding precise estimands to research practice expands the space of theoretical questions, clarifies how evidence can speak to those questions, and unlocks new tools for estimation. By grounding all three steps in a precise statement of the target quantity, our framework connects statistical evidence to theory.",
+        "container-title": "American Sociological Review",
+        "DOI": "10.1177/00031224211004187",
+        "issue": "3",
+        "language": "en",
+        "page": "532-565",
+        "source": "Zotero",
+        "title": "What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory",
+        "volume": "86",
+        "author": [
+            {
+                "family": "Lundberg",
+                "given": "Ian"
+            },
+            {
+                "family": "Johnson",
+                "given": "Rebecca"
+            },
+            {
+                "family": "Stewart",
+                "given": "Brandon M"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2021"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/RAKK9Z82",
+        "type": "article-journal",
+        "abstract": "Conducting research with human subjects can be difficult because of limited sample sizes and small empirical effects. We demonstrate that this problem can yield patterns of results that are practically indistinguishable from flipping a coin to determine the direction of treatment effects. We use this idea of random conclusions to establish a baseline for interpreting effect-size estimates, in turn producing more stringent thresholds for hypothesis testing and for statisticalpower calculations. An examination of recent meta-analyses in psychology, neuroscience, and medicine confirms that, even if all considered effects are real, results involving small effects are indeed indistinguishable from random conclusions.",
+        "DOI": "10.1177/17456916231182097",
+        "language": "en",
+        "page": "1-21",
+        "source": "Zotero",
+        "title": "Better Accuracy for Better Science . . . Through Random Conclusions",
+        "author": [
+            {
+                "family": "Davis-Stober",
+                "given": "Clintin P"
+            },
+            {
+                "family": "Dana",
+                "given": "Jason"
+            },
+            {
+                "family": "Kellen",
+                "given": "David"
+            },
+            {
+                "family": "McMullin",
+                "given": "Sara D"
+            },
+            {
+                "family": "Bonifay",
+                "given": "Wes"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2023"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/DFTB7TR5",
+        "type": "article-journal",
+        "abstract": "I am profoundly grateful to Tom Bouchard for helping me learn to think scientiﬁcally. Scientiﬁc thinking, which is characterized by a set of safeguards against conﬁrmation bias, does not come naturally to the human species, as the relatively recent appearance of science in history attests. Even today, scientiﬁc thinking is in woefully short supply in many domains of psychology, including clinical psychology and cognate disciplines. I survey ﬁve key threats to scientiﬁc psychology – (a) political correctness, (b) radical environmentalism, (c) the resurrection of ‘‘common sense” and intuition as arbiters of scientiﬁc truth, (d) postmodernism, and (e) pseudoscience – and conclude that these threats must be confronted directly by psychological science. I propose a set of educational and institutional reforms that should place psychology on ﬁrmer scientiﬁc footing.",
+        "container-title": "Personality and Individual Differences",
+        "DOI": "10.1016/j.paid.2010.01.024",
+        "ISSN": "01918869",
+        "issue": "4",
+        "journalAbbreviation": "Personality and Individual Differences",
+        "language": "en",
+        "page": "281-288",
+        "source": "DOI.org (Crossref)",
+        "title": "Can psychology become a science?",
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0191886910000425",
+        "volume": "49",
+        "author": [
+            {
+                "family": "Lilienfeld",
+                "given": "Scott O."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    8,
+                    19
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2010",
+                    9
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/ZIW2REI4",
+        "type": "article-journal",
+        "abstract": "Authors from richer, English-speaking countries gain unconscious boost when identified to referees, study finds.",
+        "container-title": "Nature",
+        "DOI": "10.1038/d41586-023-01772-w",
+        "language": "en",
+        "license": "2023 Springer Nature Limited",
+        "note": "Bandiera_abtest: a\nCg_type: Career News\npublisher: Nature Publishing Group\nSubject_term: Careers, Authorship, Peer review, Developing world",
+        "source": "www-nature-com.libaccess.lib.mcmaster.ca",
+        "title": "Anonymizing peer review makes the process more just",
+        "URL": "https://www.nature.com/articles/d41586-023-01772-w",
+        "author": [
+            {
+                "family": "Gilbert",
+                "given": "Natasha"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    8,
+                    19
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    5,
+                    26
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/ZSZJQRFM",
+        "type": "article-journal",
+        "abstract": "Adaptive behavior in the environment requires a high level of cognitive control to bias limited processing resources to behaviorally signiﬁcant stimuli. Such control has been associated with a set of brain regions located in the fronto-parietal cortex (multiple demand network), whose activity was found to increase as the control demand for a task increases. In contrast, another set of regions, default mode network regions, were found to be deactivated during top-down processing of task stimuli. Despite this dissociation in their activation amplitudes, it is possible that activation patterns of these regions commonly encode speciﬁc task features. In two independent neuroimaging datasets, involving a total of 40 human samples, we found that the performance of an attentional task evoked positive activity of the MDN and deactivation of the DMN. Consistent with previous studies, task features could be decoded from the fronto-parietal cognitive regions. Importantly, the regions of the DMN also encoded task features when the task set had to be rapidly reconﬁgured in a transient, trial-by-trial manner, along with the MDN regions. These results suggest that the two separate brain networks ultimately co-ordinate for the effective establishment of top-down cognitive control.",
+        "container-title": "Brain Sciences",
+        "DOI": "10.3390/brainsci13091247",
+        "ISSN": "2076-3425",
+        "issue": "9",
+        "journalAbbreviation": "Brain Sciences",
+        "language": "en",
+        "page": "1247",
+        "source": "DOI.org (Crossref)",
+        "title": "The Involvement of the Multiple Demand and Default Mode Networks in a Trial-by-Trial Cognitive Control",
+        "URL": "https://www.mdpi.com/2076-3425/13/9/1247",
+        "volume": "13",
+        "author": [
+            {
+                "family": "Jung",
+                "given": "Shinyoung"
+            },
+            {
+                "family": "Kim",
+                "given": "Joo Yeon"
+            },
+            {
+                "family": "Jo",
+                "given": "Suhyeon"
+            },
+            {
+                "family": "Han",
+                "given": "Suk Won"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    2
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    8,
+                    26
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/U834TQX2",
+        "type": "article",
+        "abstract": "Whether current or near-term AI systems could be conscious is a topic of scientific interest and increasing public concern. This report argues for, and exemplifies, a rigorous and empirically grounded approach to AI consciousness: assessing existing AI systems in detail, in light of our best-supported neuroscientific theories of consciousness. We survey several prominent scientific theories of consciousness, including recurrent processing theory, global workspace theory, higher-order theories, predictive processing, and attention schema theory. From these theories we derive \"indicator properties\" of consciousness, elucidated in computational terms that allow us to assess AI systems for these properties. We use these indicator properties to assess several recent AI systems, and we discuss how future systems might implement them. Our analysis suggests that no current AI systems are conscious, but also suggests that there are no obvious technical barriers to building AI systems which satisfy these indicators.",
+        "language": "en",
+        "note": "arXiv:2308.08708 [cs, q-bio]",
+        "number": "arXiv:2308.08708",
+        "publisher": "arXiv",
+        "source": "arXiv.org",
+        "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+        "title-short": "Consciousness in Artificial Intelligence",
+        "URL": "http://arxiv.org/abs/2308.08708",
+        "author": [
+            {
+                "family": "Butlin",
+                "given": "Patrick"
+            },
+            {
+                "family": "Long",
+                "given": "Robert"
+            },
+            {
+                "family": "Elmoznino",
+                "given": "Eric"
+            },
+            {
+                "family": "Bengio",
+                "given": "Yoshua"
+            },
+            {
+                "family": "Birch",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Constant",
+                "given": "Axel"
+            },
+            {
+                "family": "Deane",
+                "given": "George"
+            },
+            {
+                "family": "Fleming",
+                "given": "Stephen M."
+            },
+            {
+                "family": "Frith",
+                "given": "Chris"
+            },
+            {
+                "family": "Ji",
+                "given": "Xu"
+            },
+            {
+                "family": "Kanai",
+                "given": "Ryota"
+            },
+            {
+                "family": "Klein",
+                "given": "Colin"
+            },
+            {
+                "family": "Lindsay",
+                "given": "Grace"
+            },
+            {
+                "family": "Michel",
+                "given": "Matthias"
+            },
+            {
+                "family": "Mudrik",
+                "given": "Liad"
+            },
+            {
+                "family": "Peters",
+                "given": "Megan A. K."
+            },
+            {
+                "family": "Schwitzgebel",
+                "given": "Eric"
+            },
+            {
+                "family": "Simon",
+                "given": "Jonathan"
+            },
+            {
+                "family": "VanRullen",
+                "given": "Rufin"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    3
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    8,
+                    22
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/S4IE885R",
+        "type": "article-journal",
+        "container-title": "European Journal of Epidemiology",
+        "DOI": "10.1007/s10654-016-0149-3",
+        "ISSN": "0393-2990, 1573-7284",
+        "issue": "4",
+        "journalAbbreviation": "Eur J Epidemiol",
+        "language": "en",
+        "page": "337-350",
+        "source": "DOI.org (Crossref)",
+        "title": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations",
+        "title-short": "Statistical tests, P values, confidence intervals, and power",
+        "URL": "http://link.springer.com/10.1007/s10654-016-0149-3",
+        "volume": "31",
+        "author": [
+            {
+                "family": "Greenland",
+                "given": "Sander"
+            },
+            {
+                "family": "Senn",
+                "given": "Stephen J."
+            },
+            {
+                "family": "Rothman",
+                "given": "Kenneth J."
+            },
+            {
+                "family": "Carlin",
+                "given": "John B."
+            },
+            {
+                "family": "Poole",
+                "given": "Charles"
+            },
+            {
+                "family": "Goodman",
+                "given": "Steven N."
+            },
+            {
+                "family": "Altman",
+                "given": "Douglas G."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    3
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2016",
+                    4
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/S46743XW",
+        "type": "article-journal",
+        "abstract": "Political scientists often theorize that an explanatory variable should have “no effect” and support this claim by demonstrating that its coefficient's estimate is not statistically significant. This empirical argument is quite weak, but I introduce applied researchers to simple, powerful tools that can strengthen their arguments for this hypothesis. With several supporting examples, I illustrate that researchers can use 90% confidence intervals to argue against meaningful effects and provide persuasive evidence for their hypothesis.",
+        "container-title": "American Journal of Political Science",
+        "DOI": "10.1111/ajps.12102",
+        "ISSN": "0092-5853, 1540-5907",
+        "issue": "4",
+        "journalAbbreviation": "American J Political Sci",
+        "language": "en",
+        "page": "1083-1091",
+        "source": "DOI.org (Crossref)",
+        "title": "Arguing for a Negligible Effect",
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/ajps.12102",
+        "volume": "58",
+        "author": [
+            {
+                "family": "Rainey",
+                "given": "Carlisle"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    3
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2014",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/2MY73HRV",
+        "type": "article",
+        "abstract": "The equitable distribution of academic data is crucial for ensuring equal research opportunities, and ultimately further progress. Yet, due to the complexity of using the API for audio data that corresponds to the Million Song Dataset along with its misreporting (before 2016) and the discontinuation of this API (after 2016), access to this data has become restricted to those within certain affiliations that are connected peer-to-peer. In this paper, we delve into this issue, drawing insights from the experiences of 22 individuals who either attempted to access the data or played a role in its creation. With this, we hope to initiate more critical dialogue and more thoughtful consideration with regard to access privilege in the MIR community.",
+        "language": "en",
+        "note": "arXiv:2308.16389 [cs, eess]",
+        "number": "arXiv:2308.16389",
+        "publisher": "arXiv",
+        "source": "arXiv.org",
+        "title": "The Biased Journey of MSD_AUDIO.ZIP",
+        "URL": "http://arxiv.org/abs/2308.16389",
+        "author": [
+            {
+                "family": "Kim",
+                "given": "Haven"
+            },
+            {
+                "family": "Choi",
+                "given": "Keunwoo"
+            },
+            {
+                "family": "Modrzejewski",
+                "given": "Mateusz"
+            },
+            {
+                "family": "Liem",
+                "given": "Cynthia C. S."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    3
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    8,
+                    30
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/IDLE8RKM",
+        "type": "article-journal",
+        "container-title": "Landscape Ecology",
+        "DOI": "10.1007/s10980-011-9674-3",
+        "ISSN": "0921-2973, 1572-9761",
+        "issue": "10",
+        "journalAbbreviation": "Landscape Ecol",
+        "language": "en",
+        "page": "1345-1349",
+        "source": "DOI.org (Crossref)",
+        "title": "Improving the writing of research papers: IMRAD and beyond",
+        "title-short": "Improving the writing of research papers",
+        "URL": "http://link.springer.com/10.1007/s10980-011-9674-3",
+        "volume": "26",
+        "author": [
+            {
+                "family": "Wu",
+                "given": "Jianguo"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    4
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2011",
+                    12
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/KWW9RDQA",
+        "type": "article-journal",
+        "abstract": "The open science movement is rapidly changing the scientific landscape. Because exact definitions are often lacking and reforms are constantly evolving, accessible guides to open science are needed. This paper provides an introduction to open science and related reforms in the form of an annotated reading list of seven peer-reviewed articles, following the format of Etz, Gronau, Dablander, Edelsbrunner, and Baribault (2018). Written for researchers and students – particularly in psychological science – it highlights and introduces seven topics: understanding open science; open access; open data, materials, and code; reproducible analyses; preregistration and registered reports; replication research; and teaching open science. For each topic, we provide a detailed summary of one particularly informative and actionable article and suggest several further resources. Supporting a broader understanding of open science issues, this overview should enable researchers to engage with, improve, and implement current open, transparent, reproducible, replicable, and cumulative scientific practices.",
+        "container-title": "Zeitschrift für Psychologie",
+        "DOI": "10.1027/2151-2604/a000387",
+        "ISSN": "2190-8370, 2151-2604",
+        "issue": "4",
+        "journalAbbreviation": "Zeitschrift für Psychologie",
+        "language": "en",
+        "page": "237-248",
+        "source": "DOI.org (Crossref)",
+        "title": "Seven Easy Steps to Open Science: An Annotated Reading List",
+        "title-short": "Seven Easy Steps to Open Science",
+        "URL": "https://econtent.hogrefe.com/doi/10.1027/2151-2604/a000387",
+        "volume": "227",
+        "author": [
+            {
+                "family": "Crüwell",
+                "given": "Sophia"
+            },
+            {
+                "family": "Van Doorn",
+                "given": "Johnny"
+            },
+            {
+                "family": "Etz",
+                "given": "Alexander"
+            },
+            {
+                "family": "Makel",
+                "given": "Matthew C."
+            },
+            {
+                "family": "Moshontz",
+                "given": "Hannah"
+            },
+            {
+                "family": "Niebaum",
+                "given": "Jesse C."
+            },
+            {
+                "family": "Orben",
+                "given": "Amy"
+            },
+            {
+                "family": "Parsons",
+                "given": "Sam"
+            },
+            {
+                "family": "Schulte-Mecklenbeck",
+                "given": "Michael"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    11
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2019",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/IAGU3UGZ",
+        "type": "article-journal",
+        "abstract": "Abstract\n            Improving the reliability and efficiency of scientific research will increase the credibility of the published scientific literature and accelerate discovery. Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives. There is some evidence from both simulations and empirical studies supporting the likely effectiveness of these measures, but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement. We discuss the goals of these measures, and how they can be implemented, in the hope that this will facilitate action toward improving the transparency, reproducibility and efficiency of scientific research.",
+        "container-title": "Nature Human Behaviour",
+        "DOI": "10.1038/s41562-016-0021",
+        "ISSN": "2397-3374",
+        "issue": "1",
+        "journalAbbreviation": "Nat Hum Behav",
+        "language": "en",
+        "page": "0021",
+        "source": "DOI.org (Crossref)",
+        "title": "A manifesto for reproducible science",
+        "URL": "https://www.nature.com/articles/s41562-016-0021",
+        "volume": "1",
+        "author": [
+            {
+                "family": "Munafò",
+                "given": "Marcus R."
+            },
+            {
+                "family": "Nosek",
+                "given": "Brian A."
+            },
+            {
+                "family": "Bishop",
+                "given": "Dorothy V. M."
+            },
+            {
+                "family": "Button",
+                "given": "Katherine S."
+            },
+            {
+                "family": "Chambers",
+                "given": "Christopher D."
+            },
+            {
+                "family": "Percie Du Sert",
+                "given": "Nathalie"
+            },
+            {
+                "family": "Simonsohn",
+                "given": "Uri"
+            },
+            {
+                "family": "Wagenmakers",
+                "given": "Eric-Jan"
+            },
+            {
+                "family": "Ware",
+                "given": "Jennifer J."
+            },
+            {
+                "family": "Ioannidis",
+                "given": "John P. A."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2017",
+                    1,
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/QIVEQVXM",
+        "type": "article-journal",
+        "abstract": "The term psi denotes anomalous processes of information or energy transfer that are currently unexplained in terms of known physical or biological mechanisms. Two variants of psi are precognition (conscious cognitive awareness) and premonition (affective apprehension) of a future event that could not otherwise be anticipated through any known inferential process. Precognition and premonition are themselves special cases of a more general phenomenon: the anomalous retroactive influence of some future event on an individual’s current responses, whether those responses are conscious or nonconscious, cognitive or affective. This article reports 9 experiments, involving more than 1,000 participants, that test for retroactive influence by “time-reversing” well-established psychological effects so that the individual’s responses are obtained before the putatively causal stimulus events occur. Data are presented for 4 time-reversed effects: precognitive approach to erotic stimuli and precognitive avoidance of negative stimuli; retroactive priming; retroactive habituation; and retroactive facilitation of recall. The mean effect size (d) in psi performance across all 9 experiments was 0.22, and all but one of the experiments yielded statistically significant results. The individual-difference variable of stimulus seeking, a component of extraversion, was significantly correlated with psi performance in 5 of the experiments, with participants who scored above the midpoint on a scale of stimulus seeking achieving a mean effect size of 0.43. Skepticism about psi, issues of replication, and theories of psi are also discussed.",
+        "container-title": "Journal of Personality and Social Psychology",
+        "DOI": "10.1037/a0021524",
+        "ISSN": "1939-1315, 0022-3514",
+        "issue": "3",
+        "journalAbbreviation": "Journal of Personality and Social Psychology",
+        "language": "en",
+        "page": "407-425",
+        "source": "DOI.org (Crossref)",
+        "title": "Feeling the future: Experimental evidence for anomalous retroactive influences on cognition and affect.",
+        "title-short": "Feeling the future",
+        "URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/a0021524",
+        "volume": "100",
+        "author": [
+            {
+                "family": "Bem",
+                "given": "Daryl J."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2011"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/H95H5ENI",
+        "type": "article-journal",
+        "abstract": "Does psi exist? D. J. Bem (2011) conducted 9 studies with over 1,000 participants in an attempt to demonstrate that future events retroactively affect people’s responses. Here we discuss several limitations of Bem’s experiments on psi; in particular, we show that the data analysis was partly exploratory and that one-sided p values may overstate the statistical evidence against the null hypothesis. We reanalyze Bem’s data with a default Bayesian t test and show that the evidence for psi is weak to nonexistent. We argue that in order to convince a skeptical audience of a controversial claim, one needs to conduct strictly confirmatory studies and analyze the results with statistical tests that are conservative rather than liberal. We conclude that Bem’s p values do not indicate evidence in favor of precognition; instead, they indicate that experimental psychologists need to change the way they conduct their experiments and analyze their data.",
+        "container-title": "Journal of Personality and Social Psychology",
+        "DOI": "10.1037/a0022790",
+        "ISSN": "1939-1315, 0022-3514",
+        "issue": "3",
+        "journalAbbreviation": "Journal of Personality and Social Psychology",
+        "language": "en",
+        "page": "426-432",
+        "source": "DOI.org (Crossref)",
+        "title": "Why psychologists must change the way they analyze their data: The case of psi: Comment on Bem (2011).",
+        "title-short": "Why psychologists must change the way they analyze their data",
+        "URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/a0022790",
+        "volume": "100",
+        "author": [
+            {
+                "family": "Wagenmakers",
+                "given": "Eric-Jan"
+            },
+            {
+                "family": "Wetzels",
+                "given": "Ruud"
+            },
+            {
+                "family": "Borsboom",
+                "given": "Denny"
+            },
+            {
+                "family": "Van Der Maas",
+                "given": "Han L. J."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2011",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/CHLAFSLI",
+        "type": "article-journal",
+        "abstract": "We conducted preregistered replications of 28 classic and contemporary published findings, with protocols that were peer reviewed in advance, to examine variation in effect magnitudes across samples and settings. Each protocol was administered to approximately half of 125 samples that comprised 15,305 participants from 36 countries and territories. Using the conventional criterion of statistical significance (p < .05), we found that 15 (54%) of the replications provided evidence of a statistically significant effect in the same direction as the original finding. With a strict significance criterion (p < .0001), 14 (50%) of the replications still provided such evidence, a reflection of the extremely highpowered design. Seven (25%) of the replications yielded effect sizes larger than the original ones, and 21 (75%) yielded effect sizes smaller than the original ones. The median comparable Cohen’s ds were 0.60 for the original findings and 0.15 for the replications. The effect sizes were small (< 0.20) in 16 of the replications (57%), and 9 effects (32%) were in the direction opposite the direction of the original effect. Across settings, the Q statistic indicated significant heterogeneity in 11 (39%) of the replication effects, and most of those were among the findings with the largest overall effect sizes; only 1 effect that was near zero in the aggregate showed significant heterogeneity according to this measure. Only 1 effect had a tau value greater than .20, an indication of moderate heterogeneity. Eight others had tau values near or slightly above .10, an indication of slight heterogeneity. Moderation tests indicated that very little heterogeneity was attributable to the order in which the tasks were performed or whether the tasks were administered in lab versus online. Exploratory comparisons revealed little heterogeneity between Western, educated, industrialized, rich, and democratic (WEIRD) cultures and less WEIRD cultures (i.e., cultures with relatively high and low WEIRDness scores, respectively). Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied.",
+        "container-title": "Advances in Methods and Practices in Psychological Science",
+        "DOI": "10.1177/2515245918810225",
+        "ISSN": "2515-2459, 2515-2467",
+        "issue": "4",
+        "journalAbbreviation": "Advances in Methods and Practices in Psychological Science",
+        "language": "en",
+        "page": "443-490",
+        "source": "DOI.org (Crossref)",
+        "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+        "title-short": "Many Labs 2",
+        "URL": "http://journals.sagepub.com/doi/10.1177/2515245918810225",
+        "volume": "1",
+        "author": [
+            {
+                "family": "Klein",
+                "given": "Richard A."
+            },
+            {
+                "family": "Vianello",
+                "given": "Michelangelo"
+            },
+            {
+                "family": "Hasselman",
+                "given": "Fred"
+            },
+            {
+                "family": "Adams",
+                "given": "Byron G."
+            },
+            {
+                "family": "Adams",
+                "given": "Reginald B."
+            },
+            {
+                "family": "Alper",
+                "given": "Sinan"
+            },
+            {
+                "family": "Aveyard",
+                "given": "Mark"
+            },
+            {
+                "family": "Axt",
+                "given": "Jordan R."
+            },
+            {
+                "family": "Babalola",
+                "given": "Mayowa T."
+            },
+            {
+                "family": "Bahník",
+                "given": "Štěpán"
+            },
+            {
+                "family": "Batra",
+                "given": "Rishtee"
+            },
+            {
+                "family": "Berkics",
+                "given": "Mihály"
+            },
+            {
+                "family": "Bernstein",
+                "given": "Michael J."
+            },
+            {
+                "family": "Berry",
+                "given": "Daniel R."
+            },
+            {
+                "family": "Bialobrzeska",
+                "given": "Olga"
+            },
+            {
+                "family": "Binan",
+                "given": "Evans Dami"
+            },
+            {
+                "family": "Bocian",
+                "given": "Konrad"
+            },
+            {
+                "family": "Brandt",
+                "given": "Mark J."
+            },
+            {
+                "family": "Busching",
+                "given": "Robert"
+            },
+            {
+                "family": "Rédei",
+                "given": "Anna Cabak"
+            },
+            {
+                "family": "Cai",
+                "given": "Huajian"
+            },
+            {
+                "family": "Cambier",
+                "given": "Fanny"
+            },
+            {
+                "family": "Cantarero",
+                "given": "Katarzyna"
+            },
+            {
+                "family": "Carmichael",
+                "given": "Cheryl L."
+            },
+            {
+                "family": "Ceric",
+                "given": "Francisco"
+            },
+            {
+                "family": "Chandler",
+                "given": "Jesse"
+            },
+            {
+                "family": "Chang",
+                "given": "Jen-Ho"
+            },
+            {
+                "family": "Chatard",
+                "given": "Armand"
+            },
+            {
+                "family": "Chen",
+                "given": "Eva E."
+            },
+            {
+                "family": "Cheong",
+                "given": "Winnee"
+            },
+            {
+                "family": "Cicero",
+                "given": "David C."
+            },
+            {
+                "family": "Coen",
+                "given": "Sharon"
+            },
+            {
+                "family": "Coleman",
+                "given": "Jennifer A."
+            },
+            {
+                "family": "Collisson",
+                "given": "Brian"
+            },
+            {
+                "family": "Conway",
+                "given": "Morgan A."
+            },
+            {
+                "family": "Corker",
+                "given": "Katherine S."
+            },
+            {
+                "family": "Curran",
+                "given": "Paul G."
+            },
+            {
+                "family": "Cushman",
+                "given": "Fiery"
+            },
+            {
+                "family": "Dagona",
+                "given": "Zubairu K."
+            },
+            {
+                "family": "Dalgar",
+                "given": "Ilker"
+            },
+            {
+                "family": "Dalla Rosa",
+                "given": "Anna"
+            },
+            {
+                "family": "Davis",
+                "given": "William E."
+            },
+            {
+                "family": "De Bruijn",
+                "given": "Maaike"
+            },
+            {
+                "family": "De Schutter",
+                "given": "Leander"
+            },
+            {
+                "family": "Devos",
+                "given": "Thierry"
+            },
+            {
+                "family": "De Vries",
+                "given": "Marieke"
+            },
+            {
+                "family": "Doğulu",
+                "given": "Canay"
+            },
+            {
+                "family": "Dozo",
+                "given": "Nerisa"
+            },
+            {
+                "family": "Dukes",
+                "given": "Kristin Nicole"
+            },
+            {
+                "family": "Dunham",
+                "given": "Yarrow"
+            },
+            {
+                "family": "Durrheim",
+                "given": "Kevin"
+            },
+            {
+                "family": "Ebersole",
+                "given": "Charles R."
+            },
+            {
+                "family": "Edlund",
+                "given": "John E."
+            },
+            {
+                "family": "Eller",
+                "given": "Anja"
+            },
+            {
+                "family": "English",
+                "given": "Alexander Scott"
+            },
+            {
+                "family": "Finck",
+                "given": "Carolyn"
+            },
+            {
+                "family": "Frankowska",
+                "given": "Natalia"
+            },
+            {
+                "family": "Freyre",
+                "given": "Miguel-Ángel"
+            },
+            {
+                "family": "Friedman",
+                "given": "Mike"
+            },
+            {
+                "family": "Galliani",
+                "given": "Elisa Maria"
+            },
+            {
+                "family": "Gandi",
+                "given": "Joshua C."
+            },
+            {
+                "family": "Ghoshal",
+                "given": "Tanuka"
+            },
+            {
+                "family": "Giessner",
+                "given": "Steffen R."
+            },
+            {
+                "family": "Gill",
+                "given": "Tripat"
+            },
+            {
+                "family": "Gnambs",
+                "given": "Timo"
+            },
+            {
+                "family": "Gómez",
+                "given": "Ángel"
+            },
+            {
+                "family": "González",
+                "given": "Roberto"
+            },
+            {
+                "family": "Graham",
+                "given": "Jesse"
+            },
+            {
+                "family": "Grahe",
+                "given": "Jon E."
+            },
+            {
+                "family": "Grahek",
+                "given": "Ivan"
+            },
+            {
+                "family": "Green",
+                "given": "Eva G. T."
+            },
+            {
+                "family": "Hai",
+                "given": "Kakul"
+            },
+            {
+                "family": "Haigh",
+                "given": "Matthew"
+            },
+            {
+                "family": "Haines",
+                "given": "Elizabeth L."
+            },
+            {
+                "family": "Hall",
+                "given": "Michael P."
+            },
+            {
+                "family": "Heffernan",
+                "given": "Marie E."
+            },
+            {
+                "family": "Hicks",
+                "given": "Joshua A."
+            },
+            {
+                "family": "Houdek",
+                "given": "Petr"
+            },
+            {
+                "family": "Huntsinger",
+                "given": "Jeffrey R."
+            },
+            {
+                "family": "Huynh",
+                "given": "Ho Phi"
+            },
+            {
+                "family": "IJzerman",
+                "given": "Hans"
+            },
+            {
+                "family": "Inbar",
+                "given": "Yoel"
+            },
+            {
+                "family": "Innes-Ker",
+                "given": "Åse H."
+            },
+            {
+                "family": "Jiménez-Leal",
+                "given": "William"
+            },
+            {
+                "family": "John",
+                "given": "Melissa-Sue"
+            },
+            {
+                "family": "Joy-Gaba",
+                "given": "Jennifer A."
+            },
+            {
+                "family": "Kamiloğlu",
+                "given": "Roza G."
+            },
+            {
+                "family": "Kappes",
+                "given": "Heather Barry"
+            },
+            {
+                "family": "Karabati",
+                "given": "Serdar"
+            },
+            {
+                "family": "Karick",
+                "given": "Haruna"
+            },
+            {
+                "family": "Keller",
+                "given": "Victor N."
+            },
+            {
+                "family": "Kende",
+                "given": "Anna"
+            },
+            {
+                "family": "Kervyn",
+                "given": "Nicolas"
+            },
+            {
+                "family": "Knežević",
+                "given": "Goran"
+            },
+            {
+                "family": "Kovacs",
+                "given": "Carrie"
+            },
+            {
+                "family": "Krueger",
+                "given": "Lacy E."
+            },
+            {
+                "family": "Kurapov",
+                "given": "German"
+            },
+            {
+                "family": "Kurtz",
+                "given": "Jamie"
+            },
+            {
+                "family": "Lakens",
+                "given": "Daniël"
+            },
+            {
+                "family": "Lazarević",
+                "given": "Ljiljana B."
+            },
+            {
+                "family": "Levitan",
+                "given": "Carmel A."
+            },
+            {
+                "family": "Lewis",
+                "given": "Neil A."
+            },
+            {
+                "family": "Lins",
+                "given": "Samuel"
+            },
+            {
+                "family": "Lipsey",
+                "given": "Nikolette P."
+            },
+            {
+                "family": "Losee",
+                "given": "Joy E."
+            },
+            {
+                "family": "Maassen",
+                "given": "Esther"
+            },
+            {
+                "family": "Maitner",
+                "given": "Angela T."
+            },
+            {
+                "family": "Malingumu",
+                "given": "Winfrida"
+            },
+            {
+                "family": "Mallett",
+                "given": "Robyn K."
+            },
+            {
+                "family": "Marotta",
+                "given": "Satia A."
+            },
+            {
+                "family": "Međedović",
+                "given": "Janko"
+            },
+            {
+                "family": "Mena-Pacheco",
+                "given": "Fernando"
+            },
+            {
+                "family": "Milfont",
+                "given": "Taciano L."
+            },
+            {
+                "family": "Morris",
+                "given": "Wendy L."
+            },
+            {
+                "family": "Murphy",
+                "given": "Sean C."
+            },
+            {
+                "family": "Myachykov",
+                "given": "Andriy"
+            },
+            {
+                "family": "Neave",
+                "given": "Nick"
+            },
+            {
+                "family": "Neijenhuijs",
+                "given": "Koen"
+            },
+            {
+                "family": "Nelson",
+                "given": "Anthony J."
+            },
+            {
+                "family": "Neto",
+                "given": "Félix"
+            },
+            {
+                "family": "Lee Nichols",
+                "given": "Austin"
+            },
+            {
+                "family": "Ocampo",
+                "given": "Aaron"
+            },
+            {
+                "family": "O’Donnell",
+                "given": "Susan L."
+            },
+            {
+                "family": "Oikawa",
+                "given": "Haruka"
+            },
+            {
+                "family": "Oikawa",
+                "given": "Masanori"
+            },
+            {
+                "family": "Ong",
+                "given": "Elsie"
+            },
+            {
+                "family": "Orosz",
+                "given": "Gábor"
+            },
+            {
+                "family": "Osowiecka",
+                "given": "Malgorzata"
+            },
+            {
+                "family": "Packard",
+                "given": "Grant"
+            },
+            {
+                "family": "Pérez-Sánchez",
+                "given": "Rolando"
+            },
+            {
+                "family": "Petrović",
+                "given": "Boban"
+            },
+            {
+                "family": "Pilati",
+                "given": "Ronaldo"
+            },
+            {
+                "family": "Pinter",
+                "given": "Brad"
+            },
+            {
+                "family": "Podesta",
+                "given": "Lysandra"
+            },
+            {
+                "family": "Pogge",
+                "given": "Gabrielle"
+            },
+            {
+                "family": "Pollmann",
+                "given": "Monique M. H."
+            },
+            {
+                "family": "Rutchick",
+                "given": "Abraham M."
+            },
+            {
+                "family": "Saavedra",
+                "given": "Patricio"
+            },
+            {
+                "family": "Saeri",
+                "given": "Alexander K."
+            },
+            {
+                "family": "Salomon",
+                "given": "Erika"
+            },
+            {
+                "family": "Schmidt",
+                "given": "Kathleen"
+            },
+            {
+                "family": "Schönbrodt",
+                "given": "Felix D."
+            },
+            {
+                "family": "Sekerdej",
+                "given": "Maciej B."
+            },
+            {
+                "family": "Sirlopú",
+                "given": "David"
+            },
+            {
+                "family": "Skorinko",
+                "given": "Jeanine L. M."
+            },
+            {
+                "family": "Smith",
+                "given": "Michael A."
+            },
+            {
+                "family": "Smith-Castro",
+                "given": "Vanessa"
+            },
+            {
+                "family": "Smolders",
+                "given": "Karin C. H. J."
+            },
+            {
+                "family": "Sobkow",
+                "given": "Agata"
+            },
+            {
+                "family": "Sowden",
+                "given": "Walter"
+            },
+            {
+                "family": "Spachtholz",
+                "given": "Philipp"
+            },
+            {
+                "family": "Srivastava",
+                "given": "Manini"
+            },
+            {
+                "family": "Steiner",
+                "given": "Troy G."
+            },
+            {
+                "family": "Stouten",
+                "given": "Jeroen"
+            },
+            {
+                "family": "Street",
+                "given": "Chris N. H."
+            },
+            {
+                "family": "Sundfelt",
+                "given": "Oskar K."
+            },
+            {
+                "family": "Szeto",
+                "given": "Stephanie"
+            },
+            {
+                "family": "Szumowska",
+                "given": "Ewa"
+            },
+            {
+                "family": "Tang",
+                "given": "Andrew C. W."
+            },
+            {
+                "family": "Tanzer",
+                "given": "Norbert"
+            },
+            {
+                "family": "Tear",
+                "given": "Morgan J."
+            },
+            {
+                "family": "Theriault",
+                "given": "Jordan"
+            },
+            {
+                "family": "Thomae",
+                "given": "Manuela"
+            },
+            {
+                "family": "Torres",
+                "given": "David"
+            },
+            {
+                "family": "Traczyk",
+                "given": "Jakub"
+            },
+            {
+                "family": "Tybur",
+                "given": "Joshua M."
+            },
+            {
+                "family": "Ujhelyi",
+                "given": "Adrienn"
+            },
+            {
+                "family": "Van Aert",
+                "given": "Robbie C. M."
+            },
+            {
+                "family": "Van Assen",
+                "given": "Marcel A. L. M."
+            },
+            {
+                "family": "Van Der Hulst",
+                "given": "Marije"
+            },
+            {
+                "family": "Van Lange",
+                "given": "Paul A. M."
+            },
+            {
+                "family": "Van ’T Veer",
+                "given": "Anna Elisabeth"
+            },
+            {
+                "family": "Vásquez- Echeverría",
+                "given": "Alejandro"
+            },
+            {
+                "family": "Ann Vaughn",
+                "given": "Leigh"
+            },
+            {
+                "family": "Vázquez",
+                "given": "Alexandra"
+            },
+            {
+                "family": "Vega",
+                "given": "Luis Diego"
+            },
+            {
+                "family": "Verniers",
+                "given": "Catherine"
+            },
+            {
+                "family": "Verschoor",
+                "given": "Mark"
+            },
+            {
+                "family": "Voermans",
+                "given": "Ingrid P. J."
+            },
+            {
+                "family": "Vranka",
+                "given": "Marek A."
+            },
+            {
+                "family": "Welch",
+                "given": "Cheryl"
+            },
+            {
+                "family": "Wichman",
+                "given": "Aaron L."
+            },
+            {
+                "family": "Williams",
+                "given": "Lisa A."
+            },
+            {
+                "family": "Wood",
+                "given": "Michael"
+            },
+            {
+                "family": "Woodzicka",
+                "given": "Julie A."
+            },
+            {
+                "family": "Wronska",
+                "given": "Marta K."
+            },
+            {
+                "family": "Young",
+                "given": "Liane"
+            },
+            {
+                "family": "Zelenski",
+                "given": "John M."
+            },
+            {
+                "family": "Zhijia",
+                "given": "Zeng"
+            },
+            {
+                "family": "Nosek",
+                "given": "Brian A."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2018",
+                    12
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/E5Y7JSN4",
+        "type": "article-journal",
+        "abstract": "Cases of clear scientific misconduct have received significant media attention recently, but less flagrantly questionable research practices may be more prevalent and, ultimately, more damaging to the academic enterprise. Using an anonymous elicitation format supplemented by incentives for honest reporting, we surveyed over 2,000 psychologists about their involvement in questionable research practices. The impact of truth-telling incentives on self-admissions of questionable research practices was positive, and this impact was greater for practices that respondents judged to be less defensible. Combining three different estimation methods, we found that the percentage of respondents who have engaged in questionable practices was surprisingly high. This finding suggests that some questionable practices may constitute the prevailing research norm.",
+        "container-title": "Psychological Science",
+        "DOI": "10.1177/0956797611430953",
+        "ISSN": "0956-7976, 1467-9280",
+        "issue": "5",
+        "journalAbbreviation": "Psychol Sci",
+        "language": "en",
+        "page": "524-532",
+        "source": "DOI.org (Crossref)",
+        "title": "Measuring the Prevalence of Questionable Research Practices With Incentives for Truth Telling",
+        "URL": "http://journals.sagepub.com/doi/10.1177/0956797611430953",
+        "volume": "23",
+        "author": [
+            {
+                "family": "John",
+                "given": "Leslie K."
+            },
+            {
+                "family": "Loewenstein",
+                "given": "George"
+            },
+            {
+                "family": "Prelec",
+                "given": "Drazen"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2012",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/ZKIYJQHY",
+        "type": "article-journal",
+        "abstract": "In this article, we define questionable measurement practices (QMPs) as decisions researchers make that raise doubts about the validity of the measures, and ultimately the validity of study conclusions. Doubts arise for a host of reasons, including a lack of transparency, ignorance, negligence, or misrepresentation of the evidence. We describe the scope of the problem and focus on how transparency is a part of the solution. A lack of measurement transparency makes it impossible to evaluate potential threats to internal, external, statistical-conclusion, and construct validity. We demonstrate that psychology is plagued by a measurement schmeasurement attitude: QMPs are common, hide a stunning source of researcher degrees of freedom, and pose a serious threat to cumulative psychological science, but are largely ignored. We address these challenges by providing a set of questions that researchers and consumers of scientific research can consider to identify and avoid QMPs. Transparent answers to these measurement questions promote rigorous research, allow for thorough evaluations of a study’s inferences, and are necessary for meaningful replication studies.",
+        "container-title": "Advances in Methods and Practices in Psychological Science",
+        "DOI": "10.1177/2515245920952393",
+        "issue": "4",
+        "language": "en",
+        "page": "456-465",
+        "source": "Zotero",
+        "title": "Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them",
+        "volume": "3",
+        "author": [
+            {
+                "family": "Flake",
+                "given": "Jessica Kay"
+            },
+            {
+                "family": "Fried",
+                "given": "Eiko I"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2020"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/J5LKYY99",
+        "type": "article-journal",
+        "abstract": "This article raises questions about what the word ‘knowledge’ refers to. Drawn from some 40 years of collaborative work on knowledge democracy, the authors suggest that higher education institutions today are working with a very small part of the extensive and diverse knowledge systems in the world. Following from de Sousa Santos, they illustrate how Western knowledge has been engaged in epistemicide, or the killing of other knowledge systems. Community-based participatory research is about knowledge as an action strategy for change and about the rendering visible of the excluded knowledges of our remarkable planet. Knowledge stories, theoretical dimensions of knowledge democracy and the evolution of community-based participatory research partnerships are highlighted.",
+        "container-title": "Research for All",
+        "DOI": "10.18546/RFA.01.1.02",
+        "ISSN": "2399-8121, 2399-8121",
+        "issue": "1",
+        "language": "en",
+        "source": "DOI.org (Crossref)",
+        "title": "Decolonization of knowledge, epistemicide, participatory research and higher education",
+        "URL": "https://scienceopen.com/hosted-document?doi=10.18546/RFA.01.1.02",
+        "volume": "1",
+        "author": [
+            {
+                "family": "Hall",
+                "given": "Budd L."
+            },
+            {
+                "family": "Tandon",
+                "given": "Rajesh"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2017"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/HNUBIKJJ",
+        "type": "webpage",
+        "container-title": "The British Psychological Society",
+        "language": "en",
+        "title": "#bropenscience is broken science",
+        "title-short": "#bropenscience is broken science",
+        "URL": "https://www.bps.org.uk/psychologist/bropenscience-broken-science",
+        "author": [
+            {
+                "family": "Whitaker",
+                "given": "Kirstie"
+            },
+            {
+                "family": "Guest",
+                "given": "Olivia"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2020",
+                    9
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/C9MMMAQW",
+        "type": "webpage",
+        "container-title": "Open Science Collaboration",
+        "title": "Open Science Collaboration Blog · Bem is Back: A Skeptic's Review of a Meta-Analysis on Psi",
+        "URL": "http://osc.centerforopenscience.org/2014/06/25/a-skeptics-review/",
+        "author": [
+            {
+                "family": "Wagenmakers",
+                "given": "Eric-Jan"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2014",
+                    6,
+                    25
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/4BS48KJ5",
+        "type": "post-weblog",
+        "container-title": "The 20% Statistician",
+        "title": "The 20% Statistician: A pre-publication peer-review of the 'Feeling The Future' meta-analysis",
+        "title-short": "The 20% Statistician",
+        "URL": "http://daniellakens.blogspot.com/2014/05/a-pre-publication-peer-review-of-meta.html",
+        "author": [
+            {
+                "family": "Lakens",
+                "given": "Daniel"
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    16
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "2014",
+                    5,
+                    23
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/U4589JGV",
+        "type": "article-journal",
+        "abstract": "My purpose here is not to propose a definition for HARKing that can be unambiguously applied in any particular instance. Nor do I suggest (or believe) that the various forms HARKing might take are equivalent (e.g., in terms of their costs). My immediate purpose is to define conceptually and illustrate a (fuzzy) set of approaches to advancing hypotheses in research reports that share a common feature-namely, knowledge of the results of the study alters the set of hypotheses advanced in the report's introduction.",
+        "container-title": "Personality and Social Psychology Review",
+        "DOI": "10.1207/s15327957pspr0203_4",
+        "ISSN": "1088-8683, 1532-7957",
+        "issue": "3",
+        "journalAbbreviation": "Pers Soc Psychol Rev",
+        "language": "en",
+        "page": "196-217",
+        "source": "DOI.org (Crossref)",
+        "title": "HARKing: Hypothesizing After the Results are Known",
+        "title-short": "HARKing",
+        "URL": "http://journals.sagepub.com/doi/10.1207/s15327957pspr0203_4",
+        "volume": "2",
+        "author": [
+            {
+                "family": "Kerr",
+                "given": "Norbert L."
+            }
+        ],
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    9,
+                    17
+                ]
+            ]
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    "1998",
+                    8
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/users/10371288/items/7DPI2Z8Q",
+        "type": "article-journal",
+        "abstract": "Humans are remarkably good at self-deception. But growing concern about reproducibility is driving many researchers to seek ways to fight their own worst instincts.",
+        "container-title": "Nature",
+        "DOI": "10.1038/526182a",
+        "language": "en",
+        "page": "182-185",
+        "source": "Zotero",
+        "title": "Fooling Ourselves",
+        "volume": "526",
+        "author": [
+            {
+                "family": "Nuzzo",
+                "given": "Regina"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2015"
+                ]
+            ]
+        }
+    },
+    {
+        "DOI": "10.1371/journal.pbio.3000691",
+        "ISSN": "1545-7885",
+        "URL": "https://dx.plos.org/10.1371/journal.pbio.3000691",
+        "accessed": {
+            "date-parts": []
+        },
+        "author": [
+            {
+                "family": "Nosek",
+                "given": "Brian A."
+            },
+            {
+                "family": "Errington",
+                "given": "Timothy M."
+            }
+        ],
+        "container-title": "PLOS Biology",
+        "container-title-short": "PLoS Biol",
+        "id": "nosek2020",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    3,
+                    27
+                ]
+            ]
+        },
+        "key": "4AJFZ629",
+        "language": "en",
+        "libraryid": "1",
+        "page": "e3000691",
+        "providerkey": "2509FBBE-5BB0-44C4-B119-6083A81ED673",
+        "source": "DOI.org (Crossref)",
+        "title": "What is replication?",
+        "type": "article-journal",
+        "volume": "18"
+    },
+    {
+        "URL": "https://xkcd.com/882/",
+        "accessed": {
+            "date-parts": []
+        },
+        "author": [
+            {
+                "family": "xkcd"
+            }
+        ],
+        "container-title": "xkcd",
+        "genre": "Web comic",
+        "id": "xkcd",
+        "key": "GSNAWDNZ",
+        "libraryid": "1",
+        "providerkey": "2509FBBE-5BB0-44C4-B119-6083A81ED673",
+        "title": "Significant",
+        "type": "webpage"
+    }
 ]

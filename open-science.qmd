@@ -3,19 +3,29 @@ title: |
   Open Science Fundamentals \
   PNB 3EE3
 author: "Maya Flannery"
-date: "2024-01-15"
+date: "2024-01-22"
 format: 
   revealjs:
     embed-resources: true
     toc: true
     toc-title: "Outline"
+    incremental: true
+    footer: "PNB 3EE3: Open Science Fundamentals --- Maya Flannery"
     toc-depth: 1
-    theme: [default]
+    template-partials: 
+      - dep/toc-slide.html
+    include-after-body: dep/toc-add.html
+    theme: [default, dep/custom.scss] # serif?
 slide-number: true
 bibliography: ref/os-refs.json
-csl: ref/apa.csl
+csl: dep/elsevier-vancouver.csl
 ---
 
+# Overview {.unlisted .scrollable style="vertical-align: top"}
+
+```{=html}
+<div id='toc'></div>
+```
 # Objectives
 
 ::: incremental
@@ -27,9 +37,21 @@ csl: ref/apa.csl
 
 # Background: The Replication Crisis
 
+## What is replication?
+
+-   "\[A\] study for which any outcome would be considered diagnostic evidence about a claim from prior research."[@nosek2020] (p. 1)
+
+## Why is replication important?
+
+-   This is how we establish credibility of scientific claims
+
 ## The Replication Crisis
 
-![Evidence for precognition---extraordinary claims! [@http://zotero.org/users/10371288/items/QIVEQVXM]](images/1-bem.png)
+::: fragment
+![[@http://zotero.org/users/10371288/items/QIVEQVXM]](images/1-bem.png){height="400"}
+:::
+
+-   Evidence for **extraordinary** claims!
 
 ::: notes
 [@http://zotero.org/users/10371288/items/QIVEQVXM]
@@ -42,31 +64,31 @@ Some later responses:
 
 ## Issue
 
-![ESP is real --- or science is broken...](images/7-believe.jpg)
+![](images/7-believe.jpg){height="400"}
+
+-   ESP is real or...
+-   Something is wrong with the way we do science!
 
 ------------------------------------------------------------------------
 
-![Psychologists' methods become under extreme critique [@http://zotero.org/users/10371288/items/H95H5ENI]](images/8-changeStats.png)
+![[@http://zotero.org/users/10371288/items/H95H5ENI]](images/8-changeStats.png){height="400"}
+
+-   Psychologists' methods become under extreme critique
 
 ::: notes
 [@http://zotero.org/users/10371288/items/H95H5ENI]
 :::
 
-## Follow up
+## Massive replication studies
 
-![[@http://zotero.org/users/10371288/items/IAGU3UGZ]](images/5-manifesto.png)
-
-::: notes
-[@http://zotero.org/users/10371288/items/IAGU3UGZ]
+::: fragment
+![[@http://zotero.org/users/10371288/items/CHLAFSLI]](images/2-replication.png){height="350"}
 :::
 
-------------------------------------------------------------------------
+-   Many studies do not replicate!
+-   In some fields, less than **50%**
 
-![Many studies do not replicate! [@http://zotero.org/users/10371288/items/CHLAFSLI]](images/2-replication.png)
-
-::: notes
-[@http://zotero.org/users/10371288/items/CHLAFSLI]
-:::
+## How can this happen?
 
 # Problems: Questionable Practices (QRPs and QMPs)
 
@@ -90,9 +112,13 @@ Questionable measurement practices [@http://zotero.org/users/10371288/items/ZKIY
 
 Probability of rejecting null hypothesis increases with the number of tests.
 
+------------------------------------------------------------------------
+
+![[@xkcd]](images/17-significant.png)
+
 ## Selective reporting
 
-![](images/10-drawer.jpeg)
+![](images/10-drawer.jpeg){width="300"}
 
 ## Collecting data
 
@@ -123,13 +149,17 @@ Probability of rejecting null hypothesis increases with the number of tests.
 
 HARKing [@http://zotero.org/users/10371288/items/U4589JGV]
 
+::: fragment
+![](images/18-harking.png)
+:::
+
 ::: notes
 :::
 
 ## Why do researchers do this?
 
 ::: incremental
--   Career depends on ability to "publish or perish"
+-   Careers depend on ability to "publish or perish"
     -   It is *very* difficult to publish null results
 :::
 
@@ -138,13 +168,18 @@ HARKing [@http://zotero.org/users/10371288/items/U4589JGV]
 
 # Solution: Open Science
 
+![[@http://zotero.org/users/10371288/items/IAGU3UGZ]](images/5-manifesto.png){height="400"}
+
+::: notes
+:::
+
+------------------------------------------------------------------------
+
+![[@http://zotero.org/users/10371288/items/IAGU3UGZ]](images/6-cycle-01.png)
+
 ------------------------------------------------------------------------
 
 ![[FOSTER Open Science](https://www.fosteropenscience.eu)](images/9-osTaxonomy.png)
-
-## Open Access
-
-![](images/14-open-access.jpg)
 
 ## Open Data
 
@@ -156,7 +191,7 @@ HARKing [@http://zotero.org/users/10371288/items/U4589JGV]
 
 . . .
 
-![](images/16-data.png)
+![Output from JSPsych](images/16-data.png)
 
 ## Open Reproducible Research
 
@@ -164,6 +199,18 @@ HARKing [@http://zotero.org/users/10371288/items/U4589JGV]
 -   Data stored, organized, formatted appropriately
 -   Code is clean, readable, well-documented
 -   Instructions for reproduction
+:::
+
+. . .
+
+::: columns
+::: {.column width="60%"}
+![](images/19-rstudio.png){fig-align="center" width="400"}
+:::
+
+::: {.column width="40%"}
+![](images/20-jupyter.png){fig-align="center" width="200"}
+:::
 :::
 
 ## Open Science Tools
@@ -174,16 +221,27 @@ HARKing [@http://zotero.org/users/10371288/items/U4589JGV]
     -   [Example](https://emusicology.org/index.php/EMR/article/view/7208)
 :::
 
+. . .
+
+::: columns
+::: {.column width="50%"}
+![](images/21-osf.png){fig-align="center" width="400"}
+:::
+
+::: {.column width="50%"}
+![](images/22-git.png){fig-align="center" width="400"}
+:::
+:::
+
+## Open Access
+
+. . .
+
+![](images/14-open-access.jpg){width="300"}
+
 ## Incentives
 
 ![[@http://zotero.org/users/10371288/items/IAGU3UGZ]](images/15-incentives.png)
-
-::: notes
-:::
-
-## Resources
-
--   [FOSTER Open Science](https://www.fosteropenscience.eu)
 
 ::: notes
 :::
@@ -234,18 +292,15 @@ HARKing [@http://zotero.org/users/10371288/items/U4589JGV]
 
 ------------------------------------------------------------------------
 
+## What about p-hacking?
+
+. . .
+
 ### Preregistration
 
 [OSF Prereg Template](https://osf.io/preprints/metaarxiv/epgjd/)
 
 [Assignment](https://github.com/pnb3ee3-w24/courseOutline/blob/main/Assignments/group_preRegistration.md)
-
-# Summary
-
-![[@http://zotero.org/users/10371288/items/IAGU3UGZ]](images/6-cycle-01.png)
-
-::: notes
-:::
 
 # References
 
